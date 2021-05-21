@@ -1,0 +1,56 @@
+/Users/jakkus/PycharmProjects/CIS41B/venv/bin/python /Users/jakkus/PycharmProjects/CIS41B/Assignments/assignment3_t4.py
+Starting CO2Starting CH4
+Starting N2O
+Starting CFC12
+
+Starting CFC11
+Starting 15-minor
+CH4 processing 1979CO2 processing 1980
+
+N2O processing 1981
+15-minor processing 1982CFC12 processing 1983
+CFC11 processing 1984
+
+N2O processing 1985CFC12 processing 1986
+CH4 processing 1987
+15-minor processing 1988CFC11 processing 1989
+CO2 processing 1990
+
+
+CO2 processing 1991
+CFC12 processing 1992
+CFC11 processing 1993
+15-minor processing 1994
+N2O processing 1995
+CH4 processing 1996
+CFC11 processing 1997CO2 processing 1998
+
+CFC12 processing 1999
+15-minor processing 2000
+CH4 processing 2001
+N2O processing 2002
+CFC11 processing 2003
+CFC12 processing 2004
+CO2 processing 2005
+CH4 processing 2006
+15-minor processing 2007
+N2O processing 2008
+CFC11 processing 2009
+CFC12 processing 2010
+CO2 processing 2011
+CH4 processing 2012
+15-minor processing 2013
+N2O processing 2014
+CO2 processing 2015
+CFC12 processing 2016
+15-minor processing 2017N2O processing 2018
+
+Exiting CH4
+Exiting CO2
+Exiting CFC12
+Exiting 15-minor
+Exiting N2O
+Exiting CFC11
+Exiting Main Thread
+
+Process finished with exit code 0
