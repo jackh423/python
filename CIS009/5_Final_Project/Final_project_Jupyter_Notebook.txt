@@ -1,0 +1,14 @@
+Submit all your work in a zip file:  This means the zip file should contain all input files and the jupyter notebook file. I should be able to run jupyter notebook successfully.
+
+For the jupyter notebook, reminders from the Final Project Description:
+
+You need to have 2 pairs of cell for each main step of analysis
+- a Markdown cell to explain what the code is supposed to do
+- a Code cell with code to do the work
+Document the entire project
+- a Markdown cell at the top of the notebook to introduce the reader to the project
+- a Markdown cell at the end of the notebook for your conclusion
+See the project description for more detail
+The due date/time to submit your zip file is the end of final exam time for the class: 11:15am Mar 22.
+There is no late submission for the final project.
+

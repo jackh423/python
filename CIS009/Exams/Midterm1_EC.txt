@@ -1,0 +1,30 @@
+This assignment was locked Feb 10 at 9:30am.
+For one of the Midterm 1 pandas questions, where the problem statement is:
+
+ Find the city with the highest total score. (The total score of a city is calculated by adding all scores for the city)
+
+Answer the midterm question by typing in your lines of code in the textbox.
+
+To answer the question you will  need to:
+
+Create the DataFrame as shown in the question (it's an exercise in creating a DataFrame)
+Figure out the answer. You can use class notes, exercises, labs (just like the midterm), and you can also use jupyter notebook to test your answer (unlike in the midterm).  Please do your own work and don't discuss or consult with anyone else.
+Your answer should only show how to find the city with the highest total score.
+Don't add the code to create the DataFrame.
+Since this is extra credit, please submit by the due date/time. It's not possible to submit work after the due date/time.
+
+============================== Solution ==============================
+
+There are multiple ways to print the city with the largest total score. As long as your answer prints the correct result and it uses pandas / numpy / python appropriately, you get full credit.
+
+Here's one way: 
+d = data.drop(columns='loc')       # remove the 'loc' column which is text
+total = np.sum(d, axis=1)             # find the sum across all rows, which is for all cities
+total[total == total.max()].index[0]  
+# use boolean indexing to get the row with the max total
+# then get the index which is the list of one city name, since 'city' is the index for the DataFrame
+# then use index 0 to get just the city name
+
+ 
+
+

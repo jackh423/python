@@ -1,0 +1,260 @@
+This is a graded discussion: 2 points possible
+
+due Jan 30
+Clare Nguyen
+Lab 2 group discussion EC - lab 2 EC 4
+Clare Nguyen
+From W21 CIS D009 01Z Intro To Data Science11 unread reply.1515 replies.
+You are part of a discussion group with 4-5 other students. There are 2 parts to the extra credit, A and B.
+
+Click Reply to answer the following 2 questions:
+When analyzing data, it's always good to see whether you have all the data needed to come to a solid and fair conclusion.
+In question 6b where you plot the population of each region, you can see the highest populated to lowest populated regions. But is there a factor that could influence the population count of a region, which is not shown in the plot?
+Label your answer 6b, then explain what the missing factor could be (or state that there is no factor)  and how it affected (or not affected) the population count.
+ 
+Copy your answer to question 8b, which is your conclusion about the relationship between income level and population.
+Label  your answer 8b.
+
+Part 1 is due on the same day and time as lab 2, 1/30 11:59pm, and it's 1pt to answer both questions.
+You will see the answers from other members of your group after you submit your answer.
+    
+After the due date of lab 2, review everyone's answers. Then add a reply to your own posting of part A.
+In your reply, briefly explain whether you've changed your mind about your conclusion or whether you've learned a new interpretation of the data from someone else.
+
+Part 2 is due Mon 2/1, 11:59pm, and is 1pt.  It's not possible to post in the discussion after 11:59pm.
+  
+========================== Discussion ======================
+
+For Q6:
+We calculated and plotted the 2019 population of the 7 regions of the world. This is a good snapshot of a high level view of the world population, but it's very high level. An important factor that's not taken into consideration is the the physical size of each region. Maybe some regions cover a large part of the lands on earth, and therefore naturally has more countries / people in it.
+
+Some of you mentioned factors such as economic factors, migration, political stability, which are all important influences on a population and could explain the difference in the population numbers.
+
+For Q8:
+As a class you all saw that the lower population is in both the high income group and low income group, whether you saw that from plotting the mean or median income of each region, or show the distribution of countries in income group, or use a scatterplot for income and population.
+
+The fact that the lower population is in both high and low income group shows that there is no correlation between income and population data that are in the dataset. A lower population country could be in either of the opposite (high vs low) income groups. Some of you pointed out that there are more higher population countries in the middle income groups, which is a correct observation. But given that many distributions (including income distribution) follows a bell curve or Gaussian curve, it makes sense that there are more countries in the middle income groups, regardless of population size.
+
+This topic was locked Feb 1 at 11:59pm.
+Search entries or author
+Search entries or author
+ Filter replies by unread      
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 27, 2021Jan 27 at 10:19pm
+6b. I am not sure if I totally understand the question, but I will try my best to answer it. My 6b plot is a bar chart, which just shows where(x-axis) has how many people(y-axis). It does not show factor or factors that could influence the population count.
+
+Based on common knowledge, I will assume that there are a lot of factors that could influence the population count, such as war, natural disaster, government policies, etc. But in terms of how and how much could any of these factors influence the population, or do they influence different regions or countries equally or differently, without more data and further calculation, I cannot say one way or the other.
+
+Looking at the data we are working on now for this lab, income could possibly be a factor that influence the population. But as I just mentioned, before worked out question #8, there is nothing I can say.
+
+ 
+
+8b. Based on the plot in #8a, my argument is there is no correlation between income group and population. For example, we cannot say that the higher populated countries are in the high income group, while the lower populated countries are in the low income group. We cannot say it is the other way either.
+
+To support this argument, we can see from the plot that the two most populated countries are not in the high income group or the low income group, and they are actually in two different groups. 
+Similarly, if you look at the two dots that on the line of 0.2 billion population, they also belong to two different groups. So we can see two countries that have the same size of population can be in different level of income.
+
+We can also see that there are a lot of countries that belong to the high income group have very samll population.There are also countries that belong to the low income group have relatively large population(more than 0.1 billion).
+
+So, the relationship between income group and population is quite random. There is no correlation.
+
+Maria Gorbunova
+Maria Gorbunova
+Jan 29, 2021Jan 29 at 12:50am
+Hello Le,
+
+6b. Funny that we both were slightly confused with the first question. 
+
+I totally agree with you that there are a lot of factors that could influence the population count, and you gave great examples of them. I also thought it would make sense to use the income data on the countries to get more information.
+
+8b. I can see why you had the conclusion that there is no correlation. I actually thought that both middle income ranges actually have bigger populations for a reason since people feel secure about having big families. As for the high income, I remember reading somewhere that for some reason high income families tend to have only one child. 
+
+ 
+
+ 
+
+Le Tang
+Le Tang
+Jan 31, 2021Jan 31 at 8:01pm
+I have not changed my mind of my conclusion after reading all the posts, that is probably because I am more confused now. :) Shall we look at each country or each region? Now I am wondering if there is a right answer to this question. 
+
+But I definitely have learned a lot of new interpretations of the data, like looking at the mean, median, and percentile, which are all very inspiring. It is interesting to read everyone's response. 
+
+Collapse SubdiscussionShweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 28, 2021Jan 28 at 6:25pm
+6b.
+
+There could be cases of missing data, which are not reflected in the plot.
+
+This missing data(Nan values) could affect the population count for a particular region  by having false zeroes and hence give false values in the plot, and might mislead the graph.
+
+8b.
+
+Based on the scatter plot from #8a, We see that there is no correlation between income group and population.
+ High income countries have the least mean for population. There is a possibility that income is inversely related to population. Then, Low income will have highest mean population, but we see that this is not so. They have second least mean population.
+Highest mean population is for countries with Lower Middle income, and in second place are the Upper Middle Income countries. This shows there is no correlation between income group and population.
+
+Edited by Shweta Khanjan Shroff on Jan 28 at 6:56pm
+Collapse SubdiscussionMaria Gorbunova
+Maria Gorbunova
+Jan 29, 2021Jan 29 at 12:55am
+Hello Shweta!
+
+6b. I also noticed that Nan values would not be taken into the account.
+
+8b. I am very curious about how you made the mean in your scatter plot. For me, as I understood it from the graph, the low income countries have the least population for countries, although you said its the second least...
+
+Collapse SubdiscussionShweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 29, 2021Jan 29 at 2:38am
+Hi Maria,
+
+6b.
+
+If I have understood correctly, the question asks us to answer n the light of two things:
+
+1) We must HAVE  'all the data needed to come to a solid and fair conclusion'
+
+2) We must think about 'factor that could influence the population count of a region'
+
+I think we need to focus on only the factors affecting our plot, and its authenticity, and how far it goes into depicting the actual data truthfully, rather than what has led to the increase or decrease of a region's population. So we need to focus only on how truly our chart is, compared to the  actual population(data).
+
+8b.
+
+I first found the mean of the population of countries grouped by  'Income',  and plotted data for 2019.
+
+I did so because, if we took just the population of different 'Income' groups for the plot,  it would not account for the difference in the number of countries in different groups.  So, I think mean would give a better picture and it would be a fair comparison if we took the mean.
+
+Again, the next part (8b) hints at discouraging the use of a lot of  numbers,  and taking mean serves that purpose as well, by succinctly depicting the trend, for comparison. If we took the mean, the plot shows Low Income countries have second least population for year 2019.
+
+I wanted to learn about what have you plotted in your graph, in order to make the comparison.
+
+However, the drawback that still remains with plotting the mean is that the outliers might unduly affect mean for those income groups.
+
+ 
+
+Collapse SubdiscussionShweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 29, 2021Jan 29 at 3:14am
+8b.
+
+However, now that I realize, during the discussion, I had the idea of going back and plotting the median values , instead of the mean values, I notice that it does show a correlation.
+
+For the median values of 2019 population, for countries grouped by 'Income', there is a negative correlation between income levels and population. In other words, it means that lower the income, higher the population. 
+
+The trend shown is:
+
+Median population for 2019 :
+
+Low income > Lower middle income > Upper middle income > High income
+
+This change in observation from mean to median can be attributed to the fact that outliers do not tend to affect median values, as they affect the mean values, and hence show true picture.
+
+Thanks everyone for the stimulating discussion.
+
+ 
+
+Edited by Shweta Khanjan Shroff on Jan 29 at 3:19am
+Le Tang
+Le Tang
+Jan 29, 2021Jan 29 at 4:24pm
+I feel question #8 is difficult maybe because the two datasets we are trying to compare are of two different kinds. The population is a number(quantitive data), but the income is a group(categorical data?). It will be a lot easier for me to plot if we were given some numbers as the income information, such as average income or GDP, etc. But now I learned that finding the mean or median of the group, like Shweta did, could also be a good solution to this problem.
+
+Shweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 31, 2021Jan 31 at 1:54pm
+Hi all,
+
+It was great reading everyone's response in the group.
+
+For #6b, I really found some responses different from mine, like when Le , Maria and Srinivas mentioned about factors like income, war, government policies etc. affecting the population and Tony mentioning the number of countries in a region affecting the total population. On the other hand, both Maria and I felt that data missing from the database could affect the total.
+
+For #8b, there were different responses as well, and most of my friends felt that there was no correlation between income and population. After plotting median values of population, however, I concluded that there was a negative correlation between population and income. Tony concluded the same , and mentioned that he plotted mean, 25th ,50th and 75th percentile populations against income groups.
+
+Thus, in the final analysis, I stand by my conclusion about missing values affecting the graph in #6b, with an additional point about number of countries in a  region also affecting the tally, which I learnt new. For #8b also I stand by my conclusion that there is a negative correlation, but I learnt that we can also plot 25th and 75th percentile of the population data against the "Income" groups, to futher support this conclusion.
+
+Collapse SubdiscussionMaria Gorbunova
+Maria Gorbunova
+Jan 29, 2021Jan 29 at 12:43am
+6b.  #Im not sure I understood the question correctly, so I have two answers for it
+
+a. When summing data, NA (missing) values will be treated as zero.
+The pandas "policy" on Na values might have had influence on the output, since it treats Na values as a 0 when calculating.
+
+b. The first and most important factor is economics. For example, Income Range for the countries in the region could show some correlation. (see more in 8b) 
+8b.
+
+# Based on the output in 8a we can see that the low income countries have the smallest population. 
+# It can be explained by people not feeling confident about their future and therefore they 
+# dont want to have a lot of children.
+# The biggest populations are in middle income ranges (both lower and upper), which makes sense since people 
+# feel safe and can afford having big families.
+
+# It is hard to see how much of a difference between the income ranges for countries 
+# (for two reasons:  china and india are so big that they made the rest of the countries look crowded,
+# and it would be nice to see a more detailed ranging for income) so I would say 
+# that the correlation is there but it is not that pronounced to make unambiguous conclusion.
+# We might need some other variables to get a better understanding on what influences the size
+# of population in addition to income range
+Le Tang
+Le Tang
+Jan 29, 2021Jan 29 at 4:06pm
+Hi Maria,
+
+I had the exact same confusion as you about 6b. But then I thought that we already talked about (considered) NaN on question #5, so I decided to go with the other one, the "real world" one. :)
+
+Collapse SubdiscussionSrinivas Jakkula
+Srinivas Jakkula
+Jan 30, 2021Jan 30 at 10:44am
+# Question A Responses
+
+# 1 Response.
+
+Income is one big factor in influencing the population count which is not shown on the plot.
+
+Based on 6b plot(s), I see that "East Asia & Pacific" and "South Asia" region has highest population. Where as "North America" and
+
+"Middle East & North Africa" has lowest population. The missing factor of Income greatly influenced the population. Either end of Income group (Low Income or High Income) are having less population. Middle Income groups had more population.
+
+ 
+
+# 2 Response
+
+# 8B Response
+
+# Based on the above scatter plot, I see that Lower middle Income and Upper middle Income groups have high population
+# Low Income countries has low population.
+
+Income played vital role in the population. When Income is High or Low then there is less population. Middle Income groups have more population.
+
+ 
+
+Srinivas Jakkula
+Srinivas Jakkula
+Feb 1, 2021Feb 1 at 11:51pm
+After going through all the other's reply, I am going add few more points to what I have added above.
+
+Number of countries is one of the point, I might have considered.
+
+And also plotting mean and std plots might give bit more details.
+
+Overall, I see that we need to have more data and also what points that we want to highlight from data is important for a data scientist. Some times, our data might have details about external factors that are mentioned by some of the members in this group like details of War, Education and availability of jobs and food.
+
+Collapse SubdiscussionTony Ta
+Tony Ta
+Jan 30, 2021Jan 30 at 2:54pm
+6b) The missing factor that could have affected the population count is the number of countries in each region. North America, for example, only has 3 countries in total, so their population count won't be as high as the other regions, such as East Asia & Pacific, who have 36 countries total.
+
+8b) There is an inverse relationship between a country's population and its income group. In other words, the lower the population is, the higher the income level is in general. To find this, I found the statistics (mean, 25th, 50th and 75th percentiles) of each income level's populations and saw a general decrease in the population as the income group increased.
+
+Tony Ta
+Tony Ta
+Feb 1, 2021Feb 1 at 11:38am
+Having read everyone else's responses, I still feel that my answer for 6b is valid. The total population of a region can be a bit misleading if you don't take into account the number of countries in each region.
+
+For 8b, while I still think my answer was mostly correct, I was interested to see how other people talked about the middle two income regions and how they had slightly higher population statistics than the two outer income regions. This made me consider that there might be less of a correlation between income group and population, as there is no clear trend in population in respect to income group.
+
+
+

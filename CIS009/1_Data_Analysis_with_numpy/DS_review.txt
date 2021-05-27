@@ -1,0 +1,21 @@
+Data science interview EC
+99 unread replies.2121 replies.
+This extra credit (EC) has a few purposes:
+1. Gives you some views on the data science experience from practicing data scientists
+2. Shows you where the book references for the class are
+3. Gives you practice on using the discussion forum to communicate with the class
+4. An extra credit opportunity, and who doesn't want extra credit?
+5. See the next to last paragraph
+
+For 2 pts EC, read the interviews of the 3 data scientists in the Data Science Handbook, which is at the References link on the class website.
+
+Then click on Reply to post:
+1. One (or more) point about data science that was what you expected. Mention the name of the data scientist(s) who made the point.
+2. One (or more) point about data science that was surprising to you. Mention the name of the data scientist(s) who made the point.
+Your answers can be 1 or 2 sentences each, no need to write an essay. Being a data scientist means you can convey information efficiently (or succinctly).
+
+After you've posted your reply, you can then see other students' postings.
+There is no wrong answer since it is your own experience with the reading, but if everyone participates, we can learn from each other's viewpoints and maybe even get to know each other. And this will be the first step to find a partner for the team project at the end of the quarter.
+
+Since this is extra credit, the discussion forum will close on the due date/time, which means you won't be able to post after the due date/time.
+

@@ -1,0 +1,81 @@
+iThe final project is the same weight as one of the midterm exams. Instead of answering short questions in an exam to show specific knowledge, you will pull together your knowledge in a hands-on way to solve a beginning level data science problem of your choice.
+
+Timing
+There are 2 due dates for the project:
+
+March 10, 11:59pm: project proposal due
+March 22, 11:15am: project jupyter notebook due
+This deadline is the end of the final exam time for this class. Please make sure to submit the jupyter notebook by the due date/time since it's not possible to submit work after the due time.
+   
+Goal of the final project
+
+Use the knowledge you learn in this class to work on a data science topic of your choice
+Optional: research a little further on any technique we've covered in class. Examples:
+- a nicer plot (of the same kinds of plot we've covered)
+- tune one feature of a model that we've discussed (but we've only used default features)
+- add another way to analyze the data
+The use of further techniques is optional, you will not be marked down if you only do the required part. But just like in any class, there are those who enjoy pushing themselves further, and I completely support that.
+  
+Overview of the project
+There are 2 main areas of data science that we've discussed:
+
+Data analysis
+Machine learning, which contains the specialized field Natural Language Processing
+You choose the topic of your project based on your area of interest. Here are some examples:
+
+Data analysis:
+There isn't a dedicated resource for data analysis, so here are some example topics:
+Given real estate prices from Zillow, and given US Census and school district standardized test score data, is the household income or school score a bigger predictor of real estate price?
+Given the enrollment data from CA community colleges (or Cal State Universities), what is the enrollment trend based on student ethnicity, income level, or age?
+From the US census data, is CA's (or Bay Area's) population growing or shrinking? Is the demographic younger / older?
+If you choose to do a data analysis project, you should choose 'real life' data from known sources as shown above.
+Machine learning:
+If you choose to do a machine learning project, then there are resources with easy-to-use datasets.
+Kaggle is a good place to find datasets for beginning level projects. Here (Links to an external site.)'s an example of some datasets that are a reasonable size and clean (consistent rows and columns, not a lot of NaNs, labeled columns, etc.) , which can inspire you to use ML for regression, classification, or clustering problems.
+Here (Links to an external site.)'s the the list of text classification datasets from Kaggle if you are interested in NLP.
+The UCI dataset repository (Links to an external site.) is a well known place to find reasonable sized and clean datasets for practicing ML. At the webpage you can sort the datasets by name or topic (default order) or by size, or by year that the set was created, etc. The data are 'real life' data and not synthetic data, which makes it more interesting to observe patterns from them.
+You are not limited to the sources above. Feel free to explore other data sources, including 'real life' data as with the data analysis project.
+
+Scope of the project
+-- The dataset should be between 200 to 10,000 entries. The upper limit is flexible, but the lower limit is set and ideally your data size should be larger than the minimum.
+
+-- The project file that you turn in should be a jupyter notebook, with the following components, in the order shown:
+
+A Markdown cell with:
+your name
+a description of the project: what the project sets out to do, what type of input data, and why you chose this topic
+A Markdown cell that cites all your sources such as input datasets or ideas that helped you
+Pairs of Markdown cell and Code cell:
+In the Markdown cell: description of what the code does
+In the Code cell: the code to do a task
+End with a pair of Markdown and Code cells that show the outcome of your project
+A Markdown cell that explains:
+The output of your project and your conclusion
+Anything in the dataset that could have skewed your result
+Any further work that could be done to improve the result
+-- The largest part of the jupyter notebook will be part 3. Make sure part 3 produces enough data and/or plots to convince your audience that your conclusion in part 4 is fair.
+
+-- Most if not all your work should be the methods and techniques that we've discussed in class.
+It is possible to implement 1 or 2 additional topics that we haven't discussed in class, if you know them well and feel they would be important to your project, but please check with me first. You should not use ML models that we haven't discussed.
+
+-- It is important to do your own project and not borrow someone else's existing work. If you read someone else's work and are inspired to work in the same area, then you should implement new features or solve the problem in a different way, and cite your source.
+   
+
+Project proposal
+Do the following steps to write the project proposal:
+
+Decide what you would like to investigate / work on
+Plan enough time to research for proper input data. Without good data, it's not possible to do proper data analysis or training an ML algorithm.
+Determine the kind of tools you will use
+Write the proposal to include:
+A clear description of what your project is trying to solve, include the scope of the project.
+"My project is to work with covid data" is not clear enough and the scope is too wide. There are many aspects of studying covid data.
+"I would like to see if there's correlation between gender and ethnicity and covid hospitalization" is a clear  and well defined topic. The scope would be to limit it to CA datasets, or data from one country, etc.
+Give sources of input data. You don't have to narrow it down to the exact sources that you will use yet, but show the choices that you're seriously considering, they should all have enough features that you could potentially use for analysis or training.
+You will get feedback on your proposal, and from the feedback you may need to revise the proposal iteratively. When the proposal is finalized, it will be used to grade your project.
+   
+
+Scoring
+Project proposal: 20 pts
+Project jupyter notebook: 80 pts
+

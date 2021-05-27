@@ -1,0 +1,363 @@
+Questions for Module 1 - numpy?
+1111 unread replies.3636 replies.
+Click "Reply" to post your question / comment.
+
+Search entries or author
+Search entries or author
+ Filter replies by unread      
+ ReplyReply to Questions for Module 1 - numpy?
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 7, 2021Jan 7 at 11:37am
+for questions like 3 and 4, should we comment in an answer to the question or write some sort of code?
+
+Edited by Nicholas Alexander on Jan 7 at 11:46am
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 7, 2021Jan 7 at 12:01pm
+For the numpy exercise, questions 3 and 4 ask for the data type. So you only have to give the data type as an answer, there's no coding involved.
+
+If it's a question like question 9:
+# create a 3 rows x 4 cols array of random integers from 10 to 19?
+# print the array and the shape?
+Then you need to write code to create the array, then write code to print the array and the shape
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 7, 2021Jan 7 at 12pm
+Also, the Numpy exercise EC assignment has no submit button. Where should we upload our work?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 7, 2021Jan 7 at 12:03pm
+It should have a Submit button now. Thanks for letting me know.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 9, 2021Jan 9 at 5:36pm
+I hope I understood the numpy exercises instruction correctly, but what are we supposed to do on #18?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 9, 2021Jan 9 at 6:27pm
+There was a typo in the numbering of the exercises, #28 in the exercise was accidentally typed as #18, so when I picked out the EC problems I put down 18 when it's supposed to be 28.
+
+The exercise that everyone should work on is #18 in the exercises, but it's the #18 that comes after #27 and before #29.
+
+Thanks for letting me know.
+
+Edited by Clare Nguyen on Jan 9 at 6:27pm
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 9, 2021Jan 9 at 8:10pm
+Got it. Thank you very much!
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 11, 2021Jan 11 at 2:58pm
+I am sorry but where can I find the recording for today's class meeting? 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 11, 2021Jan 11 at 3:05pm
+It should be at the Zoom link (on left side menu of the class page), then click on the "Cloud Recordings" tab, and select the date you want.
+
+ ReplyReply to Comment
+Collapse SubdiscussionSharon Yeh
+Sharon Yeh
+Jan 11, 2021Jan 11 at 11:59pm
+For numpy array, we can set the the integer type as Python int (dtype=int) or Numpy int(dtype=np.int8/np.int16/np.int32).
+
+Which is better(Python int or Numpy int)? Which one uses more in the data science field? 
+
+Thank you!
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 12, 2021Jan 12 at 12:17am
+Using Python int means that when the data type is passed to numpy, it turns into numpy's int32.
+If you're fine with using 32 bits for your integers, then using int or np.int32 is the same.
+
+If you'd like your data size to be smaller than 32 bits or larger than 32 bits, then you need to use numpy's data type so you can specify the size.
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 13, 2021Jan 13 at 2:18am
+For number 8 in the lab assignment, are we looking for the highest percentage growth or largest difference between pop2019-pop1960?
+
+ 
+
+when data is missing for a country in 1960, should we calculate our initial value for the first year data is available?
+
+i.e. Serbia has no population data until 1990.
+
+should we calculate population difference with first year of available data such as :(Population of serbia2019 - popSerbia1990)
+
+and then find the max of all differences between countries?
+
+ 
+
+or should we find a percentage change of growth between the data and find the maximum of the growth rate from all populations ?
+
+ 
+
+hope this all makes sense :) just not sure how youd like us to crunch the numbers 
+
+and unsure of how youd like us to access data when it isnt provided for a specific year
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 13, 2021Jan 13 at 8:36am
+Answer to Q1:
+For #8 you're just looking for the difference between the 2 "ends" or between 1960 and 2019. No need to look at the middle years.
+
+Answer to Q2 and 3:
+The #8 question statement says that you shouldn't count the countries with population of 0 in 1960 or in 2019.
+Therefore, if Serbia population is 0 in 1960, it doesn't qualify as a country with largest growth or smallest growth, even if the difference in growth shows that it is.  For example, if it turns out that Serbia's difference (2019 pop -1960 pop)  is the largest value of all the countries, you still don't count it. Instead you find the country with the next largest difference and consider that one to have the largest growth.
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 13, 2021Jan 13 at 5:28pm
+I have a question about percentile.
+
+In numpy exercises #24, the last two lines: 
+
+print(np.percentile(arr,75))
+print(np.percentile(arr,25))   
+
+ 
+
+Could anyone please explain for me about how did we get the number 4.75 and 0.25 as the results? I am curious about how to calculate this number manually, if it is possible. 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 13, 2021Jan 13 at 9:07pm
+Here's one way to look at the quartiles:
+
+The data values are: [1,4,-3,2], [7,-1,3,8]
+If we sort them, we get these values:    -3 -1  1  2  3  4  7  8
+Separating the values into 4 parts:    -3  -1     ||    1   2     ||     3   4    ||    7  8
+Each part is 1/4 or 1 quartile:
+- The red dividing line between the bottom 1/4 and the next 1/4 is between -1 and 1, or 0. This is the 25th percentile.
+- The blue dividing line between the lower middle 1/4 and the upper middle 1/4 is between 2 and 3, or 2.5. This is the 50th percentile
+- The green dividing line between the upper middle 1/4 and the top 1/4 is between 4 and 7, or 5.5. This is the 75th percentile.
+
+The values 0.25 that numpy produces from np.percentile(arr,25) corresponds with the 25th percentile 0 that we hand calculate.
+The value 4.75 that numpy produces from np.percentile(arr,75) corresponds with the 75th percentile 5.5 that we hand calculate.
+
+Does that mean we're wrong, because surely numpy can't be wrong?  Not necessarily. The calculation of quantiles are not exact for small datasets, such as the 8 numbers above, and there are different computer algorithms to calculate quantiles, which will yield slightly different results. This is not unexpected and is fine. Quantiles give you some estimates of the data values, they're not meant to be exact like the sum of the values.  Here (Links to an external site.)'s a quick discussion of the non-exact nature of quantile values.
+
+ 
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 13, 2021Jan 13 at 9:37pm
+Got it. Thank you for the explanation and link. It is good to know. I was wondering why I could never get the 4.75 and 0.5 myself. :P
+
+ ReplyReply to Comment
+Collapse SubdiscussionMaria Gorbunova
+Maria Gorbunova
+Jan 13, 2021Jan 13 at 5:37pm
+Good evening professor!
+
+My question is about lab1. First we read from years and countries files. Does it matter what kind of data structure we use to store these values or it has to be Numpy Array?
+
+ 
+
+Thank you!
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 13, 2021Jan 13 at 9:11pm
+You can read the years and countries into any data structure of your choice. Use the appropriate data structure and your code can be simpler.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 14, 2021Jan 14 at 10:04pm
+Lab 1#4 questions
+
+1. Are we supposed to determine in which quartile the 2019 United States population belongs within all the populations or population of 2019?
+
+2. what is the expected output? The instruction says "Print whether it's in the 25, 50, 75, or higher percentile". Does that mean a "True" or "False"?
+
+I hope I made myself clear here. Thank you!
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 14, 2021Jan 14 at 10:19pm
+Answer to Q1:
+The problem statement says "which quartile the 2019 United States population belongs", so you should use the 2019 population.
+
+Answer to Q2:
+This means print 1 of the 4 choices:  25, 50, 75, or higher than 75.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 16, 2021Jan 16 at 10:31am
+Lab1 #8
+
+Can the smallest growth be negative(without missing data)?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 16, 2021Jan 16 at 11am
+Without the missing data, theoretically it's possible for a country to have negative growth if the birth / immigration rate is lower than the death / emigration rate.
+Whether that's for real in the past 40 years with the dataset we have, numpy can tell you if you find the difference between 2019 and 1960, and look at the lowest value.
+
+Edited by Clare Nguyen on Jan 16 at 11:01am
+ ReplyReply to Comment
+Collapse SubdiscussionShweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 16, 2021Jan 16 at 3:31pm
+Hello professor,
+
+I had a general question regarding the lab problems. Suppose we have defined a variable in a previous question already and want to refer to the same variable, or use the same variable with the same definition, then do we redefine it in the subsequent question, or it is okay to use it without redefining it the later question where we are using it again?
+
+Hope I am able to express my question clearly.
+
+Thanks
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 16, 2021Jan 16 at 5:32pm
+With Jupyter Notebook it's common to use / access a variable that's been defined in a previous cell.
+You can consider the entire notebook as a Python program, because it effectively is. The only difference between using the notebook and a .py file is that with the notebook you can easily run just a part of the program, and that part "knows" all the results of the previous cells that have run.
+
+So there's no need to re-define the same variable in each cell that you want to use it, just like there's no need to import the Python modules again if the importing has already been done at the top cell of the notebook.
+
+ ReplyReply to Comment
+Collapse SubdiscussionVipin Goel
+Vipin Goel
+Jan 17, 2021Jan 17 at 6:11pm
+Hi. My name is Vipin, and I joined the class this Thursday. Lots of catching up to do, and trying to work on lab1. I have fair experience and comfort with Python, but have never worked with numpy/pandas etc., so a big learning curve as I try to catch up.
+
+I'm running into an issue with the first task in lab1. I can read the csv files using csv.reader. However, if I try to use numpy for reading the file (as the assignment suggests we should do), I get an error. The issue is that the countries that include a "," in the name (e.g., "Bahamas, The"), are not read correctly, and the program gives an error.
+
+I'm using the genfromtext numpy function. Have tried others too, but haven't had success so far.
+
+If anyone else solved this problem, can they please help this newbie? I have lots to catch up, so for now, moving forward with using csv.reader and for loops.
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 17, 2021Jan 17 at 6:26pm
+For the countryNames.csv file, it's best to use good ol' Python with the csv.reader. This is because you will read in multiple fields in each line, but you only need to save the first field, and he other ones you can ignore. Python is pretty handy when you want to selectively save certain fields, whereas numpy is generally used when you want the entire file, and all fields are nice and uniform, with no missing data.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 20, 2021Jan 20 at 3:54pm
+Could you please upload the lab1 solution that you used for demonstration in class today? Thanks!
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 20, 2021Jan 20 at 5:33pm
+I typically don't upload the solution because there are multiple ways to do a task with Python, and my way is not the only way. As long as you get full credit for a particular question on the lab, then your way is also good.
+
+If you would like to go back and see the discussion again, you can view the recording of the Zoom meeting.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 20, 2021Jan 20 at 8:01pm
+Got it. I just think if I could run each line/part of your code, it will help me to understand it better, but that is okay. :)
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 31, 2021Jan 31 at 9:32pm
+This is an old question. 
+
+Numpy solution #28
+
+Professor Nguyen provided us a shorter solution to print out the smallest number:
+
+print("smallest value of each row:", arr[ind == 0])
+
+Could anyone please help me to understand how does this work here?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Feb 1, 2021Feb 1 at 8:15am
+ind is the array which is the result of argsort. The ind array is shown as an output of #28.
+ind == 0  is the array of boolean which returns True where ever 0 or the location of the smallest value is, and returns False everywhere else
+arr[ind==0] is arr where the boolean is True, which is the smallest value in arr
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Feb 1, 2021Feb 1 at 5:33pm
+How does ind== 0 mean the smallest value?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Feb 1, 2021Feb 1 at 8:36pm
+From the output of #28, ind is:
+[[2 1 0]
+ [0 2 1]
+ [2 1 0]]
+
+ind == 0 results in an array of boolean, which is:
+[[F F T]
+ [T F F]
+ [F F T]]
+
+arr is:
+[[2,0,-1]
+ [1,8,3]
+ [7,1,0]]
+
+therefore, arr[ ind== 0] results in a 1D array of arr elements where the T value is:
+[ -1 1  0 ]
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Feb 1, 2021Feb 1 at 10:10pm
+Screen Shot 2021-02-01 at 10.05.00 PM.png  
+
+To help myself understand, I wrote the above lines. It made sense to me. So does this mean that ind==0 does not alway mean the smallest value, it was just "lucky" that it worked out that way in the exercise?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Feb 2, 2021Feb 2 at 11:51am
+You're right. I stand corrected.  The arr[ind==0] should not be one of the solutions. It picks up the index 0 elements, which are not guaranteed to be the smallest element.
+The solutions that use ind[:,0] are the correct ones, since they pick up the first column of ind, which is where the smallest elements are.
+
+Thanks for letting me know.
+
+ ReplyReply to Comment
+SHOW MORE 11
+

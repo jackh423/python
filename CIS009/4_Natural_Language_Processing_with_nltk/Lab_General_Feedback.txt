@@ -1,0 +1,40 @@
+Lab 4 general feedback
+Overall the labs 4 that were turned in were very well done, so I will highlight only the more technical points.
+
+1b. There are 2 ways to calculate the percentage of good and bad tweets in the dataset:
+- select based on label:  sum(df.label==0)/len(df)*100
+- groupby label:    (df.groupby('label').size()/df['label'].count())*100
+
+1c. There are 2 ways to plot the top 10 hashtags:
+- use the plot() method of nltk.FreqDist object
+- use a bar chart, which is always a good way to visualize categorical data
+
+Some of you had good observations of the hashtags: the tags in the bad tweets tend to be more controversial words, even though there are some neutral words as well.
+
+1e. One of the shorter ways to remove the @username is to use vectorized string with a regex:  
+X['tweet'].str.replace('@\w+','')
+
+1f. To remove non-words, use RegexpTokenizer('\w+')  or RegexpTokenizer('[A-Za-z+')
+
+1j. For a typical confusion matrix result:
+             array([[7239, 177],
+                         [ 245, 330]],  dtype=int64)
+The prediction of good tweets has a higher chance of being accurate: 7239 right, 245 wrong
+compared to bad tweets: 330 right, 177 wrong
+
+The f1 score needs to have average='weighted' since the data is imbalanced (many more good tweets than bad).
+
+1k. The f1 score should be used because the data is imbalanced.
+
+1l. With the test data, the percentage good tweets is 96% and the percentage good tweets is 4%. We are more confident with the good tweets being accurately predicted based on the confusion matrix above. The model has a higher chance of being wrong when predicting a bad tweet.
+(And now we have some appreciation for how difficult a job it is for social media companies to catch offensive posts.)
+
+For part 2, as long as you follow the same steps as part 1, you should arrive at a pretty high accuracy score, in the low 90%:
+- read in the data from the file
+- use:  df[df.stars==5]  and   df[df.stars==1]
+      or  df[(df.stars==5) | (df.stars==1)]     to select the 1 and 5 star reviews only
+- select the 'text' column for X, select the 'stars' column for y
+- for X: use RegexpTokenizer('\w+'), lowercase the words, remove stop words, and stem the words,
+   then use the CountVectorizer to get the X vectors
+- split the X and y into training and testing sets, then train and test the MultinomialNB model
+

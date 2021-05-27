@@ -1,0 +1,64 @@
+# 9. To access data with a specific value or range of values in a column:
+print(df[df.quiz1 == 90], '\n')
+print(df[df.quiz2 < 90],'\n')
+print(df[df.Names == "Betty"],'\n')
+
+# Write 1 print statement to print the names of students with quiz2 score greater than 90 ?
+print(df[df.quiz2 > 90],'\n')
+
+ 
+
+ 
+
+ 
+
+# 14. We can get all the basic stats in one method
+gradebook.describe()
+
+# Review statistics and data analysis:
+# You are the teacher for this class, and as a good teacher, you want to improve your 
+# class material.
+# Run the cell so you can see the statistics for the exams: quiz1, midterm, quiz2, final
+# Using the statistics, you will need to improve the class material for which exam?
+# Explain your choice by citing specific statistic values to explain how they show the 
+# the need to improve.
+
+# Based on this data, I see that material needs to be improved for midterm as that has minimum "mean" value (35.437500)
+# and higher "std" (10.022965). Min mean value indicates average of all marks which is low, which indicates that as a class
+# they had less average compared to other exams
+# Similarly "std" value is high indicates that measure of the amount of variation or dispersion of a set of values. 
+# A low standard deviation indicates that the values tend to be close to the mean (also called the expected value) 
+# of the set, while a high standard deviation indicates that the values are spread out over a wider range.
+
+ 
+
+ 
+
+ 
+
+# 23
+print(data.groupby("year").mean(), '\n')
+print(data.groupby(["year"])[["quiz1", "midterm", "quiz2", "final"]].mean(), '\n')
+# The above output shows the mean of the id's, which doesn't make sense.
+# Show the mean of the exams only?  
+
+ 
+
+ 
+
+ 
+
+# 26. As seen from the cell above, it's more convenient to have a shorter column label.
+# Simplify the data.columns (column labels) so it's easier to type.
+# a. change the column labels so they're all lowercase
+data.columns = data.columns.str.lower()
+print(data.columns)
+
+
+
+# b. change column labels to 1 word: class, days, time, units, students ?
+# You'll need to do the reading for this answer
+rename = [cname.split()[-1] for cname in data.columns]
+data.columns = rename
+print(data.columns)
+

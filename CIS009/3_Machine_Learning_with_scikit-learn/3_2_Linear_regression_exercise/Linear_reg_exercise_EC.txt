@@ -1,0 +1,12 @@
+Linear regression exercise EC
+Due Feb 10 by 9:30am Points 2 Submitting a text entry box Available until Feb 10 at 9:30am
+This assignment was locked Feb 10 at 9:30am.
+Do the reading and work on the Linear regression exercises.
+In the textbox, copy your answers for the questions in cells 1, 2, 4, and 13, 14, 16.
+
+You don't have to get the perfectly correct answers, you just need to show that you're heading in the right direction in order to get credit for the answer. But a correct answer would be great (and since you've done the midterm, the answers for 1b should be correct, you're a pro with basic pandas operations now)
+
+1pt for 1, 2, 4
+1pt for 13, 14, 16.
+Since this is extra credit, it's not possible to submit the work late.
+

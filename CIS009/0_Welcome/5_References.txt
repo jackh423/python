@@ -1,0 +1,10 @@
+References
+Some interviews with data scientists: The Data Science Handbook (Links to an external site.) (sample chapters)
+Link  (Links to an external site.)to get the full set of interviews (all chapters of the book), click the "Get The Book" button.
+
+Reference for Python data science tools: jupyter notebook, numpy, pandas, matplotlib, scikit-learn: Python Data Science Handbook (Links to an external site.)
+
+Reference for statistics: Think Stats: Probability and Statistics for Programmers (Links to an external site.) (1st edition)
+
+Reference for natural language processing: Natural Language Processing with Python
+

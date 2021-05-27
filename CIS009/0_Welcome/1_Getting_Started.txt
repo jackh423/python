@@ -1,0 +1,36 @@
+Getting Started
+
+Welcome to CIS 9 - Introduction to Data Science
+Overview of the class material
+This class builds upon your existing knowledge of basic Python to explore data science modules in Python.
+For this class we will use Python 3.8 and the current Anaconda package.
+How the class is structured
+This online class meets 2 days a week on Zoom, at the regularly scheduled class time. The rest of the class work is online on your own time, where you do the reading, the practice exercises, and assignments that are on Canvas.
+Class Material
+1. Reading
+It is expected that you read the sections in the books for a particular module on your own, before the class meeting that covers the material.
+The reading discusses topics that are in the practice exercise, but it also covers additional topics that are not in the exercises. You are only responsible for the topics that are in the exercises, any additional topics in the book that are not in the exercises are optional.
+ 
+2. Practice exercises
+The exercises provide hands-on experience on the data science tools and concepts.  The exercises involve solving a short problem, and the type of questions in the exercises are similar to the questions on the exams.
+It is highly recommended that you go through the practice exercises before the online class meeting. That way when we discuss the practice exercises in the class meeting, you'll get the most out of the discussion and get all your questions answered. In addition, if you submit your work on the practice exercises before we discuss the solution, then you earn some extra credit.
+The exercises prepare you for the lab assignments and the exams, so it's important that you actively work on the exercises before seeing the solution.
+ 
+3. Assignments
+Every module has a lab assignment that corresponds to the lecture notes and exercises. If you understand the theory in the reading and the class exercise, then you have the tools to do the assignments. Each assignment consists of using the tools / concepts you've just learned in order to solve an application problem. Since there is problem solving in the lab assignment, please plan on starting the assignment as soon as you can so that you have time to think about possible solutions.
+There is a due time and date for turning in the lab assignments. If you submit or re-submit a lab assignment on Canvas after the due time/date, your assignment will be marked late and will incur late points. (Another good reason to start the lab early.)
+ 
+4. Exams and project
+There are 2 midterm exams and possibly a final exam that are online through Proctorio. You will need a picture ID and a webcam to take the exams. The exam dates are on the class calendar, which can be found on the class home page.
+At the end of the quarter you can choose to work with 1 or 2 other students on a final project, in place of the final exam. To qualify for the final project, you need to earn 80% or more on both midterms.
+ 
+5. Questions/discussion on the class material
+In addition to discussions in class, every module has a Questions forum, which is how you can get questions answered outside of the online meeting time.
+Everyone is encouraged to read the Question forum postings on a regular basis because we might already be discussing the questions or ideas you have, and our discussions might even have helpful tips that you can use.
+Everyone is also encouraged to answer someone's questions on the forum. This class is not graded on a curve where 10% of the class will get an A, 20% of the class will get a B, etc. Therefore you're not competing with each other, and collaborative learning is encouraged. When you explain a concept to someone, you also reinforce your knowledge of the topic.
+ 
+Setting up for the class
+To set up the Python environment for your own computer, follow the instructions at the link "Setting Up Your Python Environment".
+Please make sure you follow the instructions at the link.  We use Anaconda with Python 3.8 in this class and it's important that everyone has the same environment. This way the code we go over in class will work on your computer, and your assignment that you submit will run on my computer when I test it.
+
+

@@ -1,0 +1,66 @@
+Check Quiz
+Due Jan 4 at 11:59pm Points 2 Questions 4 Available until Jan 4 at 11:59pm Time Limit None
+Instructions
+This simple multiple choice quiz is based on the Getting Started document.
+The link to the Getting Started document can be found above the Check quiz link in the Modules class page.
+
+The quiz serves 3 purposes:
+
+It is your way of answering roll call on the first day of class, so that you can reserve your spot in the class.
+You can show that you know how the class works: you know what to expect from me and I know what to expect from you.
+It's an easy 2pt extra credit, so you can start the class as an A+ student!
+This quiz was locked Jan 4 at 11:59pm.
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	2 minutes	2 out of 2
+Score for this quiz: 2 out of 2
+Submitted Jan 4 at 9:04pm
+This attempt took 2 minutes.
+ 
+Question 1
+0.5 / 0.5 pts
+Select the correct answer about the assigned reading.
+Correct!
+  I should do the reading before coming to the online class meeting. 
+  The readings are optional, I don't have to look at it because I can find everything online. 
+  The assigned reading will be announced in the online class meeting, so I should read the class notes only after the class meeting. 
+You should do the reading before attending the online class meeting, so that you're aware of the concepts that we'll discuss in the class meeting. It is true that you can find lots of info and answers online, but don't forget that the reading have been selected to match the work you need to do in class.
+
+ 
+Question 2
+0.5 / 0.5 pts
+Select the correct answer about the practice exercises.
+  There's no need to do the exercises since the solution will be posted, and I can look at the solution instead. 
+  I can either turn in the exercises or the lab assignments for a grade. I don't have to do both.. 
+Correct!
+  I should try the exercises before the online class meeting. 
+It's highly recommended that you try to work on the exercise before the online class meeting. This way you'll either figure things out on your own (which means you truly understand the material) or you'll have good questions to ask (which means you'll learn the material better).
+
+The exercises are not graded and the solution will be posted after the class meeting time, but if you learn from the exercises, then you'll do well on the lab assignments and the exams, which are graded.
+
+ 
+Question 3
+0.5 / 0.5 pts
+Select the correct answer about the lab assignments.
+  There's no due date for the assignments, I have until the end of the quarter to tun in all the lab assignments 
+Correct!
+  The labs are problem solving questions so I need to plan time to work on them. 
+  The lab questions are multiple choice questions just like this quiz. 
+All lab assignments have a problem solving component to them, so in addition to using your newly acquired data science skills, you also need some time to figure out the solution.
+
+It is a good idea to start the lab early so you can finish on time because each lab has a due date.
+
+ 
+Question 4
+0.5 / 0.5 pts
+Select the correct answer about the Questions discussion forums.
+  I can ask questions on the forum, but I can't asnwer questions on the forum. 
+Correct!
+  If I have questions on the material, I can always post them in the Questions forum 
+  Forums are for wimps. I prefer to get stuck and give up. 
+You should take advantage of the Questions forum to ask questions to the whole class. There are times when your fellow students will have insightful answers that are better than mine because they're working through the same material as you are.
+
+Likewise, if you see a question on the forum that you can answer, feel free to post your answer. Your perspective might clear up someone's mental block, and by explaining a concept, you reinforce your own knowledge.
+
+Quiz Score: 2 out of 2
+

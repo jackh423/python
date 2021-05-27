@@ -1,0 +1,326 @@
+Questions for Module 2 - pandas, matplotlib?
+22 unread replies.3434 replies.
+Click "Reply" to enter your question / comment.
+
+Search entries or author
+Search entries or author
+ Filter replies by unread      
+ ReplyReply to Questions for Module 2 - pandas, matplotlib?
+Collapse SubdiscussionMaria Gorbunova
+Maria Gorbunova
+Jan 12, 2021Jan 12 at 3:19pm
+Here's a link to discord group for Intro to Data Science:
+
+https://discord.gg/KeAKwsjG
+
+ ReplyReply to Comment
+Collapse SubdiscussionKuo Fu
+Kuo Fu
+Jan 16, 2021Jan 16 at 11:05am
+Hi Maria, the link is expired. Could you update it? Thanks
+
+ ReplyReply to Comment
+Collapse SubdiscussionVipin Goel
+Vipin Goel
+Jan 20, 2021Jan 20 at 5:32pm
+Didn't realize the submission deadline for EC was in the morning, and missed submitting it :-(
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 20, 2021Jan 20 at 5:40pm
+It's no problem if you don't submit extra credit. Not submitting it won't hurt your overall score.
+The extra credit can only help, so when you have the time to do it, it's worth it to add some 'padding' to your overall score. But I also make the extra credit small, so no one has to feel really pressured into doing every single one of them.
+
+Generally the exercise EC is due right before the Zoom class meeting where we will discuss the exercise solution. These exercise ECs are to encourage everyone to look over the exercise before we discuss it.
+When you log in to Canvas, always take a look at the 'To do' column that Canvas has on the right side of the window. That way you know every upcoming due date, both required work and extra credit work.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 21, 2021Jan 21 at 9:05pm
+Pandas Exercises Solution #26 Question
+
+data.columns = data.columns.str.extract('([a-z]+)$',expand=False)
+
+I am not very familiar with regular expressions, but does the above line mean extracting the last word from each column labels?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 21, 2021Jan 21 at 9:49pm
+Yes, the regex extracts a word at the end of the string. 
+[a-z] means an alphabet character
++ means 1 or more, so [a-z]+ means 1 or more alphabet characters, which is a word
+$ means at the end of the string
+
+The prerequisite for this class is CIS 41A or equivalent, and regular expression with Python is covered in CIS 41A.
+If you would like a website to review regular expression, just let me know.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 21, 2021Jan 21 at 10:14pm
+Thank you, Professor Nguyen. I got a link to the RegexOne website through the email that cleared the prerequisite. I am still working on it.
+
+Edited by Le Tang on Jan 21 at 10:21pm
+ ReplyReply to Comment
+Collapse SubdiscussionSharon Yeh
+Sharon Yeh
+Jan 25, 2021Jan 25 at 5:33am
+For lab2 #5
+
+Does "the total number of data values" include "Code, Region, and Income" data? or it just includes "1960, 1961, ..., 2019" data?
+
+Thanks
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 25, 2021Jan 25 at 7:59am
+In step 4 you combine the 2 DataFrames into one resulting DataFrame. From step 4 on, you use the resulting DataFrame to do work, so the total number of data values is for both Code, Region, Income and 1960 - 2019.
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 25, 2021Jan 25 at 12:42pm
+For 6b in the lab, i am plotting x = country name, y = population. The xtick labels are extremely overflowed and unreadable. Any suggestions on how we can limit the xticks to perhaps show the most useful labels only?v Or are we required to include all country labels?
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 25, 2021Jan 25 at 1:45pm
+I have the same question/problem!
+
+What I am doing is rotating the names 90 degree. It is readable now but too long. Any better idea?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 25, 2021Jan 25 at 5:49pm
+To Le:  rotating the names 90 degrees is a good solution.
+I think the names are fine, but if you don't like the names being too long, you have 2 choices:
+- shorten the names (which can be tricky, since "Lat.Amer&Carib"  might  not be as user friendly as the full "Latin America & Caribbean")
+- you can look up online on how to break up the long name on 1 line into 2 shorter lines. I believe the solution can be fairly easily found.
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 25, 2021Jan 25 at 5:43pm
+To Nicholas:   Question 6b says "Plot the 2019 population of each region."   This means you don't plot each country (this would make the plot be extremely overcrowded, as you pointed out).
+You need to to add up the population of all the countries in one region, then plot the region's population. There are only 7 regions to plot.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 25, 2021Jan 25 at 4:17pm
+Lab 2 #7a
+
+The years should be taken from the DataFrame, except for 2020, which you can add in the code.
+
+I need help with the above task. How should we handle year 2020? We already removed the 2020 data column. 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 25, 2021Jan 25 at 5:51pm
+The answer is in the problem statement that you pointed out. You can add '2020' in as a literal constant, but the rest of the years should come from the dataset.
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 26, 2021Jan 26 at 1:31pm
+should we just google search the population for 2020? 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 26, 2021Jan 26 at 2:01pm
+The data you plot goes up to 2019 data. There is no need to look up data for 2020.
+
+The x-ticks, which should show every 10 years in the plot, start at 1960, 1970, 1980...  and should end with 2010, 2020.
+You don't have '2020' in the dataset, you only have 1960-2019, so you can add '2020' to the years to be used for the x-ticks.
+
+ ReplyReply to Comment
+Collapse SubdiscussionMaria Gorbunova
+Maria Gorbunova
+Jan 26, 2021Jan 26 at 3:57pm
+I just copied the same values from 2019 so the graph doesn’t look too different 😅
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 26, 2021Jan 26 at 5:43pm
+That's okay, too, since this is a lab assignment to learn about data analysis, and not a real life project where it's more important to be accurate.
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 25, 2021Jan 25 at 4:31pm
+lab 2 7a kind of confuses me. we plot the last 40 years, so starting from 1980?
+
+ 
+
+also what does it mean by print every ten years? it shows 1960 so im confused if our plot starts at 1980 or earlier, and what it means by print.(legend?)
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 25, 2021Jan 25 at 5:57pm
+Answer to Q1:
+That's supposed to say 60 years, not 40 years.
+But if someone decided to show only 40 years, that's okay, too, since that was my mistake in the wording of the problem.
+
+Answer to Q2:
+Print the x-ticks for every 10 years.  Suppose you plot all 60 years, the x-ticks shouldn't be 1960, 1961, 1962, 1963... 2019, 2020
+Instead the x-tics should be: 1960, 1970, 1980... 2020
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 26, 2021Jan 26 at 2:14pm
+thanks. sinc we are plotting by x=years, y = population size, when it says plot the populations of all regions, should each point be a plot for population size of whole world? or each region has a unique point?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 26, 2021Jan 26 at 2:47pm
+Each region has its own values.
+
+ ReplyReply to Comment
+Collapse SubdiscussionSharon Yeh
+Sharon Yeh
+Jan 26, 2021Jan 26 at 10:52pm
+Hi Clare,
+
+Two questions:
+
+(1 )"the x-tics should be: 1960, 1970, 1980... 2020" <-- In this case, can I first extract 1960, 1970, 1980... 2020 data from the whole dataset, then plot the diagram? I mean... when ploting, I don't use all (1960, 1961, 1962, 1963... 2019) data.
+
+(2) "add '2020' to the years to be used for the x-ticks."  <--- Can I just copy the data of 2019 and use it as the data of 2020?
+
+Thanks
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 27, 2021Jan 27 at 8:07am
+Answer to Q1:
+You should use data from all years when plotting. This means you plot all 60 values. Don't extract only 6 values.
+
+Answer to Q2:
+The "every 10 years" is for the x-ticks. Instead of having 60 x-ticks for the 60 years, you should only show the x-ticks for every 10 years.
+You don't need to copy data of 2019 into 2020, just plot up to and including 2019 data. But the x-ticks should go to 2020 since they're every 10 years and should end with 2020.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 27, 2021Jan 27 at 9:14pm
+Matplotlib solution #22
+
+finals = data.groupby("year").mean().final
+
+I understand here the .final is to select the column named "final". I am wondering if we want to select two columns, can we do that in one line using the same syntax? And if the column name is a number, for example 2019, will it work the same way?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 27, 2021Jan 27 at 10:55pm
+You can give groupby() a list if you want to select more than one columns.
+As for 2019, it's a column label and is a string, just like 'final' is a string, so it will work the same way.
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 28, 2021Jan 28 at 10:44am
+Thank you! 
+
+1. So if I want to select one column I could use the "dot plus column name" way, and if I want to select more than one columns, I should give groupie() a list. Is this correct?
+
+2. When I tried to use a list 
+
+finals = data.groupby("year")["final","midterm"].mean()
+
+I got the following warning
+
+Screen Shot 2021-01-28 at 10.11.45 AM.png
+
+I do not totally understand what does this mean, but when I added another layer of brackets,
+
+finals = data.groupby("year")[["final","midterm"]].mean()
+
+It seemed worked. Could you please help me to understand what is going on here?
+
+3. At lab2, when I was trying to select 2019 population(I now understand that I do not need to do so), I did
+
+regionalpopulation19 = countrieswithpopulation.groupby("Region").sum().2019
+
+and got an error said "invalid syntax"
+
+What did I do wrong here?
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 28, 2021Jan 28 at 3:23pm
+Answer to Q1 and Q2, since they're related:
+Q1:  if you want to groupby() more than 1 column, then you give groupby a list of column labels:  groupby(["colA", "colB"])
+
+Q2: if you want to select more than 1 column from the output of groupby(), then since the output of groupby() is a type of DataFrame, you can use a number of methods to select columns in a DataFrame.
+Following your example from above with finding the mean:   finals = data.groupby("colA").mean().loc[:,["colB'", "colC"]])
+
+Answer to Q3:
+Theoretically what you showed should work. However, since 2019 is interpreted as an integer, unlike the label final, a number cannot be indexed with the dot notation, but you can use [ ] notation:   ...sum()['2019']    or  ...sum()['final']
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Jan 28, 2021Jan 28 at 4:41pm
+Got it. Thank you!
+
+ ReplyReply to Comment
+Collapse SubdiscussionShweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 27, 2021Jan 27 at 10:38pm
+For lab2 # 7a :
+
+The last line of the question says:
+
+"The years should be taken from the DataFrame, except for 2020, which you can add in the code."
+
+Does it imply that the years must be scooped up from the  DataFrame, and must not be hard-coded?
+
+Thanks.
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 27, 2021Jan 27 at 10:56pm
+The years should taken from the DataFrame and not hard-coded. The only hard-coded year is 2020, since it's not in the DataFrame
+
+ ReplyReply to Comment
+Collapse SubdiscussionLe Tang
+Le Tang
+Feb 11, 2021Feb 11 at 10:44am
+Professor Nguyen,
+
+Since we are working on correlations now, could you please release your solution for Lab2 #8?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Feb 14, 2021Feb 14 at 4:41pm
+As we discussed in class, and as many of you showed in the EC for #8, there is no correlation between the population and the income level.
+
+To show correlation, I used a scatter plot to see if there's any trend that can be observed:
+pop2019 = data.loc[:,'2019']
+income = data.loc[:,'Income']
+plt.scatter(income,pop2019)
+
+If you run the above code, the plot doesn't show any correction since all levels of income include all types of population: low, middle, and high population.
+
+ ReplyReply to Comment
+

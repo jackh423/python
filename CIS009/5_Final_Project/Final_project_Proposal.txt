@@ -1,0 +1,12 @@
+This is the "contract" that you're entering, showing what your project deliverable will be, so please think carefully and look ahead to make sure that you have access to input data so that you can deliver a complete project at the end.
+
+Submit a Word document with:
+
+A clear description of what your project is trying to solve, include the scope of the project.
+"My project is to work with covid data" is not clear enough and the scope is too wide. There are many aspects of studying covid data.
+"I would like to see if there's correlation between gender and ethnicity and covid hospitalization" is a clear  and well defined topic.
+   
+Give sources of input data by giving the links to the data or copy and paste the first 10 lines of the dataset.
+ These files should be choices that you're seriously considering using, or the exact choice that you will use if you know it already.
+They should all have enough features that you could potentially use them for analysis or training.
+For each source of data, show the number of entries in the dataset and the features that you would be using in your project.

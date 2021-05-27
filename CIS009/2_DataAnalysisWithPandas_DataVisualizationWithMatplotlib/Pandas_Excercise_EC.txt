@@ -1,0 +1,11 @@
+Pandas exercise EC
+Due Jan 20 by 9:30am Points 2 Submitting a text entry box Available until Jan 20 at 9:30am
+This assignment was locked Jan 20 at 9:30am.
+Do the reading and work on the pandas exercises.
+In the textbox, copy your answers for the questions in cells 9,14, 23, 26.
+
+You don't have to get the perfectly correct answers, you just need to show that you're heading in the right direction in order to get credit for the answer. But a correct answer would be great!
+
+1/2pt for each question.
+Since this is extra credit, it's not possible to submit the work late.
+
