@@ -1,0 +1,14 @@
+Midterm 1 result
+Here is my 'plot' for the scores for the class.
+Each number is a score someone earned.
+
+95 94 94 93.5 93.5 92.5 92 92
+87 87 86.5 85 84 83 83 82 81 80 80
+79 78 73.5
+67
+
+ 
+
+After an exam is also a good time to check your current standing in the class.
+Add up all your scores at the Grades page (including all ECs) and divide by 150, the current max total.
+150 = 2 * 25 (labs) + 100 (midterm)

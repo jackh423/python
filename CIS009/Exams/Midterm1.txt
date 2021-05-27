@@ -1,0 +1,247 @@
+Midterm 1 (Remotely Proctored)
+Due No due date Points 100 Questions 11 Available Feb 3 at 9:30am - Feb 3 at 11:30am about 2 hours Time Limit 60 Minutes
+Instructions
+You can use your labs and exercises and the textbook for references
+Do not consult or communicate with another person or other online resources
+Do not use jupyter notebook or Python IDE for your answers.
+Show your work or your thought process if you don't know the exact answer to a question. Try not to leave a question blank.
+Keep your answer short when possible.
+Good luck!
+
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	60 minutes	78 out of 100
+Score for this quiz: 78 out of 100
+Submitted Feb 3 at 10:32am
+This attempt took 60 minutes.
+ 
+Question 1
+1 / 1 pts
+Please read the following statement:
+
+I promise to uphold the integrity of this exam by doing all my own work, and not consult any person or any resource other than my source of notes.
+
+Then sign your name to show that you agree, by typing in your name as your answer to this question.
+
+Your Answer:
+Srinivas Jakkula
+
+ 
+Question 2
+9 / 9 pts
+Given a 2D numpy array of student scores named S, where there are:
+-  30 rows for 30 students
+-  6 columns for 6 scores of each student, each score is an integer
+                             s1  s2  s3  s4  s5  s6       <-first row
+                             s1  s2  s3  s4  s5  s6
+                                ...
+                             s1  s2  s3  s4  s5  s6        <-30th row
+
+Given also that the scores are between 0 and 215.
+
+a.  Write code to print the 2D array as an array of percentages, where each score is converted to a score out of 100.
+To convert 1 score to a percentage:  score_value / 215 * 100
+
+b.  Write code to print the highest score out of all the scores in the array.
+
+Make sure to answer both questions, and label your answers with a or b
+
+Your Answer:
+# 1A Answer
+
+print(S/215*100)
+
+ 
+
+# 1B Answer:
+
+print(S.max())
+
+ 
+
+ 
+Question 3
+7 / 9 pts
+Given a 2D array named A, where:
+print(A.shape)       # prints:  (40,65)
+
+What is the exact output of the following 2 print statements?
+output = np.argsort(A, axis=0)
+print(output.shape)   
+print(output.max()) 
+
+Your Answer:
+65,
+
+64
+
+# explanation: axis = 0 means columns
+
+# then the shape is 65, tuple as this is a single dimention array
+
+#max is max value of that array
+
+ 
+
+shape is the same as A's shape
+ 
+Question 4
+9 / 9 pts
+Given a numpy array A such that:
+print(A.shape)         # prints:  (3,20)
+
+Write code to turn array A into a 1D array named arr1
+
+Your Answer:
+arr1 = A.reshape(60,)
+
+ 
+Question 5
+9 / 9 pts
+Given a 1D numpy array named arr, explain what the following code will print?
+print(arr[arr == arr.min()])
+
+You won't have an exact value for the answer, but describe in detail what kind of data is printed.
+"It will print an array" or "It will print a number" is not a detailed answer.
+
+Your Answer:
+First arr.min() will give the minimum value of the array. Then we are using boolean indexing to print the minimum value(s) of the array. That is explained below with an example
+
+Example arr = [3,2,1,4,5] then arr.min() will return 1
+
+Then arr[arr==arr.min()] will print the minimum value.
+
+arr[arr == 1].  # This will be next state of evaluation in the process of finding final value.
+
+This is a boolean indexing. Here we are printing the value(s) of array whose value is equal to minimum value
+
+For the above example, we will get answer as 1.
+
+Basically we are finding the minimum value with arr.min() and then we are doing boolean indexing by using arr=arr.min()
+
+ 
+Question 6
+0 / 9 pts
+Given the array:
+A = np.arange(1,17)
+
+Show the exact output for this print statement:
+print(A.max(), A.min(), np.percentile(A,25)) 
+
+Your Answer:
+16 1 4.75
+
+don't use jupyter notebook
+ 
+Question 7
+10 / 10 pts
+Given a DataFrame of cities in Santa Clara County. (This DataFrame is used for all pandas questions.)
+Each row has the city name, the city location in the county (north, south, or central), and 12 scores for each month of a year. 
+The DataFrame is named data, and the following is the output of:     data.head(4)  
+
+mid1_1.PNG  
+
+ 
+
+There are 3 types of location in the 'loc' column: north, south, central.
+Find the median score for 'jan' for each of the 3 locations. 
+This means if the location 'north' has 4 cities, you will find the median of the 4 'jan' scores that are from the 4 cities in the 'north' location. Do the same for 'south' and for 'central'.
+
+Your Answer:
+data.groupby("loc").median().jan
+
+ 
+Question 8
+9 / 10 pts
+Given a DataFrame of cities in Santa Clara County. (This DataFrame is used for all pandas questions.)
+Each row has the city name, the city location in the county (north, south, or central), and 12 scores for each month of a year. 
+The DataFrame is named data, and the following is the output of:     data.head(4)  
+
+mid1_1.PNG  
+
+ 
+
+Find the largest score for each month by doing the following 2 steps:
+a. create a new DataFrame with just the city names and their corresponding scores, don't include the location column.
+
+b. Using the new DataFrame, find the largest score of each month. This means the largest score for 'jan', the largest score for 'feb', the largest score for 'mar', etc.
+
+Your Answer:
+newDF = data.drop(columns=["loc"])
+
+newDF.describe().max
+
+- don't need describe
+ 
+Question 9
+6 / 10 pts
+Given a DataFrame of cities in Santa Clara County. (This DataFrame is used for all pandas questions.)
+Each row has the city name, the city location in the county (north, south, or central), and 12 scores for each month of a year. 
+The DataFrame is named data, and the following is the output of:     data.head(4)  
+
+mid1_1.PNG  
+
+ 
+
+Find the city with the highest total score. (The total score of a city is calculated by adding all scores for the city)
+
+Your Answer:
+sumDF = newDF.jan + newDF.feb + newDF.mar + newDF.apr + newDF.may + newDF.jun + newDF.jul + newDF.aug + newDF.sep + newDF.oct + newDF.nov + newDF.dec
+
+# other is
+
+sumdf = newDF.sum()
+
+- need to drop 'loc' - find highest total score - find city name
+ 
+Question 10
+8 / 10 pts
+Given a DataFrame of cities in Santa Clara County. (This DataFrame is used for all pandas questions.)
+Each row has the city name, the city location in the county (north, south, or central), and 12 scores for each month of a year. 
+The DataFrame is named data, and the following is the output of:     data.head(4)  
+
+mid1_1.PNG  
+
+ 
+
+Find the smallest score for San Jose by doing the following 2 steps:
+a. Create an array of all the column labels but don't include the label 'loc', since the column 'loc' contains strings.
+The resulting array should contain the strings  'jan' through 'dec'.
+
+b. Use the array of part (a) to select all 12 scores for San Jose, and find the smallest score for San Jose.
+
+Mark your answer clearly with a or b.
+
+Your Answer:
+# a Answer
+
+newdf = data.drop(columns=["loc"])
+
+# b Answer
+
+newdf.loc["San Jose"].min()
+
+a. find column labels, not new DataFrame
+ 
+Question 11
+10 / 14 pts
+Given a DataFrame of cities in Santa Clara County. (This DataFrame is used for all pandas questions.)
+Each row has the city name, the city location in the county (north, south, or central), and 12 scores for each month of a year. 
+The DataFrame is named data, and the following is the output of:     data.head(4)  
+
+mid1_1.PNG  
+
+ 
+
+Create a plot to show whether the scores of all the cities have generally increased or decreased from 'jan' to 'dec'
+You don't have to put the title, x-axis label, or y-axis label if you don't have enough time, but the user should be able to tell which city is being plotted.
+
+Your Answer:
+plt.bar(np.arange(newDF), newDF, align="center")
+
+plt.show()
+
+- plt() for data trend
+Quiz Score: 78 out of 100
+
+

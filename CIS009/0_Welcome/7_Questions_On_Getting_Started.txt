@@ -1,0 +1,84 @@
+Questions on Getting Started?
+No unread replies.88 replies.
+Click "Reply" to post your questions on how to set up or access material for the class, then click "Post reply"
+
+Search entries or author
+Search entries or author
+ Filter replies by unread      
+ ReplyReply to Questions on Getting Started?
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 4, 2021Jan 4 at 11:14am
+There was a discussion about reviewing for Python to prepare for this class, and here are the suggestions we covered:
+
+1. http://www.practicepython.org/exercises/ (Links to an external site.)
+Lots of exercises and solution that build up from shorter to longer program.  Good practice to get back into Python if you've been away for a while.
+They are in Python 2, unfortunately, so when looking at the solution, you'll need to replace the raw_input() with Python 3's input(), and you'll need to add ( ) when using print().
+
+2. Someone in class pointed out that if you took CIS 41A at De Anza, then you can go to the Canvas dashboard and click on "Courses" on the left hand side menu, then go to "All courses" and it will show you all the courses you've taken on Canvas. You should be able to see your former CIS 41A Canvas class that you took, and open it to find notes, resources, labs, etc.  that you did in that quarter.
+
+3. You can also go back to old lab assignments from any Python class you've taken before (you've saved them, didn't you?) and re-do the later assignments, which are more intermediate level, for practice.
+
+4. You can also start working on the Review Python jupyter notebook to see which topics you need to refresh, and then look up that topic in any textbook or online reference. This is the most efficient way to review your Python knowledge for this class, because the notebook has exercises on the Python topics that you need specifically for this class, so you don't have to review extra topics that you won't need.
+
+ 
+
+ ReplyReply to Comment
+Collapse SubdiscussionDeanford Chen
+Deanford Chen
+Jan 4, 2021Jan 4 at 11:36am
+is the check quiz suppose to be automatically submitted when you finished the 4 questions. I didn't submitted.  Also it ays my quiz and been muted.  is my quiz submited?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 4, 2021Jan 4 at 12:14pm
+Answer to Q1:
+According to Canvas Admin, it's always better to click Submit when you're done with the quiz. That way you know it's done.
+
+You can choose not to submit the quiz and wait for the quiz to close, and then Canvas will automatically submits whatever you have. This has caused some problem once in a while - which is how I know that Canvas Admin recommends you to click Submit on the quiz (when I emailed them because someone's quiz didn't get submitted on time).
+
+Answer to Q2:
+All your graded work will stay muted until after I've finished grading them. And I don't grade until after the due date, to give everyone a chance to submit or re-submit.
+When I finish grading and unmute the graded item,  the score / feedback will be available to everyone at the same time, it's more fair this way.
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 4, 2021Jan 4 at 12:45pm
+Someone in class was concerned about their internet connection, whether it's stable enough to do class work, join Zoom meeting, take the exams, etc.
+I've just added a link at the class home page called "Tech Resources for Online Classes", which lists all the tech resources and support De Anza has for students, including computers, wifi hotspots, deals with internet service providers, etc. The resource page also including general support such as financial, psychological, food assistance.
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 4, 2021Jan 4 at 2:29pm
+Where can we find the python Jupyter notebook review assignment that was showed in class today?
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 4, 2021Jan 4 at 2:31pm
+From the class home page, click on Modules
+Go to module 1, labeled:  1 - Data analysis with numpy
+The first item in the module is called:  1 Review Python exercise. That's the jupyter notebook to review Python
+
+ ReplyReply to Comment
+Collapse SubdiscussionNicholas Alexander
+Nicholas Alexander
+Jan 4, 2021Jan 4 at 2:48pm
+Thanks! is this a graded assignment? i dont see any submit options
+
+ ReplyReply to Comment
+Collapse SubdiscussionClare Nguyen
+Clare Nguyen
+Jan 4, 2021Jan 4 at 2:57pm
+The Python review exercise and all exercises are not required, graded work.
+
+This first exercise is to get everyone warmed up on using Python. The next exercises will be on data science concepts, and you can optionally submit your work for extra credit.
+
+Generally if you don't see a place to submit work, it means there's no grade for that item.
+
+ ReplyReply to Comment
+
+

@@ -1,0 +1,296 @@
+Midterm 2 (Remotely Proctored)
+Due No due date Points 100 Questions 14 Available Mar 15 at 9:30am - Mar 15 at 11am about 2 hours Time Limit 60 Minutes
+Instructions
+You can use your labs and exercises and the textbook for references
+Do not consult or communicate with another person or other online resources
+Show your work or your thought process if you don't know the exact answer to a question. Try not to leave a question blank.
+Keep your answer short when possible.
+Good luck!
+
+
+This quiz was locked Mar 15 at 11am.
+Attempt History
+Attempt	Time	Score
+LATEST	Attempt 1	60 minutes	84 out of 100
+Score for this quiz: 84 out of 100
+Submitted Mar 15 at 10:37am
+This attempt took 60 minutes.
+ 
+Question 1
+1 / 1 pts
+Please read the following statement:
+
+I promise to uphold the integrity of this exam by doing all my own work, and not consult any person or any resource other than my source of notes.
+
+Then sign your name to show that you agree, by typing in your name as your answer to this question.
+
+Your Answer:
+Srinivas Jakkula
+
+ 
+Question 2
+1 / 3 pts
+Select the type of machine learning for the following scenario:
+
+You train a model with the information of many customers: their income, debt, length of employment, asset, and credit score.
+You would like the model to determine if the credit score has any correlation with the income, debt, and length of employment.
+
+  supervised learning regression problem 
+You Answered
+  supervised learning clustering problem 
+Correct Answer
+  unsupervised learning clustering problem 
+  unsupervised learning classification problem 
+  supervised learning classification problem 
+  unsupervised learning regression problem 
+ 
+Question 3
+1 / 3 pts
+Select the type of machine learning for the following scenario:
+
+You train a model with data on temperature, wind, precipitation (rain/snow), air pressure, and humidity of various locations.
+Then you ask the model to predict whether it will snow for a particular location on a particular day.
+
+  unsupervised learning classification problem 
+You Answered
+  supervised learning regression problem 
+Correct Answer
+  supervised learning classification problem 
+  unsupervised learning clustering problem 
+  supervised learning clustering problem 
+  unsupervised learning regression problem 
+ 
+Question 4
+3 / 3 pts
+Select the type of machine learning for the following scenario:
+
+You train a model with many pictures of dogs and cats.
+Then the machine is given a picture and it predicts whether the animal is a dog or a cat.
+
+  unsupervised learning classification problem 
+  supervised learning regression problem 
+  unsupervised learning regression problem 
+Correct!
+  supervised learning classification problem 
+  supervised learning clustering problem 
+  unsupervised learning clustering problem 
+ 
+Question 5
+1 / 3 pts
+Select the type of machine learning for the following scenario:
+
+You train a model with many customer reviews of a product. Each customer review has a written description of their opinion on the product and whether they are happy or unhappy with the product. 
+Then you use the model with customer reviews that only have the opinion of the product, and have the model detect the reviews where the customers are unhappy with the product.
+
+You Answered
+  unsupervised learning classification problem 
+Correct Answer
+  supervised learning classification problem 
+  unsupervised learning regression problem 
+  supervised learning regression problem 
+  supervised learning clustering problem 
+  unsupervised learning clustering problem 
+ 
+Question 6
+1 / 3 pts
+Select the type of machine learning for the following scenario:
+
+You train a model with data on temperature, wind, precipitation (rain/snow), air pressure, and humidity of various locations.
+Then you ask the model to predict the weather condition for a particular location on a particular day.
+
+  unsupervised learning clustering problem 
+You Answered
+  unsupervised learning classification problem 
+  unsupervised learning regression problem 
+  supervised learning clustering problem 
+Correct Answer
+  supervised learning regression problem 
+  supervised learning classification problem 
+ 
+Question 7
+8 / 9 pts
+Given a data frame df that contains airbnb rental data, where the df.columns returns:
+
+Index(['id', 'name', 'host_id', 'neighborhood', 'latitude', 'longitude', 'room_type', 
+       'price', 'minimum_nights', 'review_number', 'listings_count', 'availability_365'],
+       dtype='object')
+Write code to simplify the name of each column by using only the first word of each name.
+For example, 'id' is still 'id', but 'host_id' becomes 'host'.
+
+You should not have to type in each column name for your answer.
+
+Your Answer:
+My idea is this,
+
+I will compile a regular expression to get first word without including any special characters live _ or space
+
+Then replace the column names with new names
+
+ 
+
+import re
+
+pattern = re.compile(r'(w+)'
+
+df.columns = df.columns.map(lambda name: pattern.sub('\1', name))
+
+use string vectorization: str.replace().
+ 
+Question 8
+9 / 9 pts
+Given a data frame df that contains airbnb rental data, where the df.columns returns:
+
+Index(['id', 'name', 'host_id', 'neighborhood', 'latitude', 'longitude', 'room_type', 
+       'price', 'minimum_nights', 'review_number', 'listings_count', 'availability_365'],
+       dtype='object')
+The 'neighborhood' column contains strings that are names of neighborhoods in a city.
+
+Write code to convert the strings in the neighborhood column to numbers.
+
+Your Answer:
+d = df['neighborhood'].unique()
+
+neighborhood = {j:i for i, j in enumerate(d)
+
+df.replace(neighborhood, inplace=True)
+
+ 
+Question 9
+9 / 9 pts
+Given a data frame df that contains airbnb rental data, where the df.columns returns:
+
+Index(['id', 'name', 'host_id', 'neighborhood', 'latitude', 'longitude', 'room_type', 
+       'price', 'minimum_nights', 'number_of_reviews', 'availability_365'],
+       dtype='object')
+The 'price' column has the cost per night, and the 'minimum_nights' is the minimum number of nights required for a stay.
+
+Write code to create a new DataFrame of all data records where the price is less than 200 and the minimum_nights is 1.
+
+Your Answer:
+cond1 = df.price < 200
+
+cond2 = df.minimum_nights == 1
+
+new_Df = df[cond1 & cond2]
+
+ 
+Question 10
+9 / 9 pts
+Given a data frame df that contains airbnb rental data, where the df.columns returns:
+
+Index(['id', 'name', 'host_id', 'neighborhood', 'latitude', 'longitude', 'room_type', 
+       'price', 'minimum_nights', 'number_of_reviews', 'availability_365'],
+       dtype='object')
+You want to train a model to predict the price.
+Which of the columns above can you drop from df to create the X DataFrame?
+For each column that you drop, explain why you want to drop it.
+
+Your Answer:
+I will drop following columns with given explanation. Based on the given columns, i feel "room_type", "minimum_nights", "neighborhood", "number_of_review" plays major role of the price.  
+
+I will drop following columns
+
+1) Price:
+
+This is what we want to predict and hence it should not be part of X (features)
+
+2) Id
+
+This does not impact the price
+
+3) name
+
+This name does not help to predict the price
+
+4) host_id
+
+As I host Id also does not help to predict the price of the hotel.
+
+5) latitude
+
+6) Longitude
+
+I will drop the above 2 also as that does not provide much info about the pricing
+
+ 
+
+ 
+
+ 
+
+ 
+Question 11
+6 / 12 pts
+Given an X dataset of 3 car features: weight, hp, size  (where hp is for horsepower of the engine).
+Given also a y dataset which is the gas mileage of the car.
+
+The X and y datasets have been divided into X_train, X_test, y_train, and y_test datasets so you can use them.
+
+You want to predict the gas mileage of a car, given the 3 features in X.
+You've already done some analysis and there is correlation between each of the 3 features and the gas mileage.
+
+a. Write code to select and train a model to predict the gas mileage of a car, given the features in X.
+b. Write code to have the model show the influence each of the 3 features has on the gas mileage.
+
+
+Your Answer:
+regr = lm.linearRegeesson(0
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= 0.25)
+
+y_pred = regr.predict(X_test)
+
+df = pd.DataFram({"Actual": y_test, "Predicted": y_pred)
+
+ 
+
+Answer for b
+ 
+Question 12
+12 / 12 pts
+Why can't you calculate an R-squared value to check for accuracy, when the algorithm is used to predict whether an animal is a dog or a cat?
+Your answer should only be 1-2 sentences.
+
+Your Answer:
+Predicting whether animal is dog or cat is a classification problem.
+
+Where as R-squared value is useful only for the regression problems to find what is error percentage.
+
+ 
+
+ 
+Question 13
+11 / 12 pts
+If you run this line of code:  
+
+metrics.confusion_matrix(y_test, y_pred, labels=[1,4])
+and observe the following output:
+
+array([[172,  6], 
+       [ 4, 118]], dtype=int64)
+Explain what the 4 numbers in the output mean.
+
+Your Answer:
+172 is the number of correct predictions for correct values (True Positive)
+
+4 is the number of wrong predictions for the correct value (False Positive)
+
+6 is the number of wrong predictions for the wrong value ( False Negative)
+
+118 is the number of correct predictions for the wrong value (True Negative)
+
+relate it to the labels 1,4
+ 
+Question 14
+12 / 12 pts
+Give an example of when you would not want to remove stop words in an NLP problem.
+
+Your Answer:
+When stop words gives meaning to the data then I won't drop the stop words.
+
+Ex: When we want to suggest grammar checking of given sentences or correction. 
+
+Quiz Score: 84 out of 100
+Submission Details:
+
+

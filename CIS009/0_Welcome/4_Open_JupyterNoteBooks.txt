@@ -1,0 +1,15 @@
+How to open and run Jupyter Notebook exercises
+After you've finished the steps to install Anaconda, this is one way to open Jupyter Notebook exercises:
+
+Download the .ipynb exercise file to a folder of your choice.
+Example: Let's say you put the file on your desktop, which is the desktop folder.
+Open a terminal / command window.
+At the terminal /command window, type the cd command followed by the directory path to your folder choice.
+Example:  cd desktop
+At the terminal / command window, type:  jupyter notebook
+and wait for a few seconds for Jupyter Notebook to start.
+When your browser opens at the Jupyter Notebook page, you should see all your files in the current folder, including the .ipynb file.
+Click on the .ipynb file to open it.
+In the notebook, click on a cell to highlight it.
+Add or modify the code in the cell, and then click Run (the triangle symbol) to run the code in that cell.
+

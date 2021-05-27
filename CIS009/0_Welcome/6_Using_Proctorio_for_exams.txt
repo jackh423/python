@@ -1,0 +1,55 @@
+Using Proctorio for exams
+Exams are remotely proctored by Proctorio to make sure our class is compliant with California online education standard.
+The purpose of using Proctorio is to make sure you are the right person and the only person taking the test.
+
+Preparing to work with Proctorio
+
+You must use a desktop or laptop with a working webcam.
+Currently Proctorio does not work with phones or tablets. 
+
+If your computer does not have the Chrome browser, you will need to download and install Chrome, and then install the Proctorio Chrome extension. Instructions for download are here (Links to an external site.).
+
+When it's time to take the exam, find a comfortable and reasonably private area to take your exam.
+When clicking to start the exam, the first screen you will see is an instruction page that shows the information being collected during the exam and what has been restricted. Make sure to read this page.
+  
+If Proctorio says that you need a pass code or password, it means that your Chrome browser has some stale data that Proctorio doesn't recognize.  In this case:
+ - Go to the top right corner and click on the 3 dots
+ - Choose More Tools
+ - Choose Clear Browsing Data
+-  Select Clear All
+-  Try logging in with Proctorio again.
+  
+Proctorio will go through pre-checks to make sure your computer is ready. If your computer does not pass the System Diagnostics Test, it will guide you to adjust your camera, etc.
+To help this step go smoothly:
+-- Before the exam, go through the "Testing Proctorio set up" quiz that's in the Exams module. It's a 0-pt quiz that you can try over and over again when you want to test your system with Proctorio.
+-- Make sure you have enough lighting so that the camera can see your face. Don't sit with your back against a bright window. Instead, turn up the light in the room or face a window with the curtains opened.
+
+When prompted by Proctorio, present your student ID or government issued picture ID. Make sure the ID fit within the guide that Proctorio displays, smile for a picture, then take your exam.
+
+If it takes you an extra couple minutes to get through Proctorio checking, don't worry. You have the full exam time starting from when you actually see the exam questions. If you get in 3 minutes after everyone else, your exam time will end 3 minutes after everyone else.
+If it takes you longer than 5-10 minutes and you still can't get in the exam, please message me on Canvas so we can figure out what to do.
+I will be online on Canvas the entire exam time to ensure that everyone can start the exam on time.
+
+What should you avoid doing during a Proctorio test? 
+Avoid activities that you normally would not do during an on-campus exam.
+
+Avoid looking around the room or turn around. You should be looking at your computer screen or your hard copy of notes, which should be next to you.
+
+Don’t get up and move around or leave the view of the camera.
+
+There should be no one around you.
+
+You may not use headphones, cell phones, or any other electronic devices.
+
+
+Getting technical support during the exam
+
+Proctorio offers 24/7 live support via email and chat.
+Chat can be accessed in the exam page by clicking the gray shield icon in the top right corner of the screen, next to your URL bar, then click Live Chat.
+
+
+Does Proctorio compromise the security of my computer?
+Proctorio does not access any content on students' computers, especially not any of their passwords, files, or data. The Chrome browser extension that students must install only runs when a Proctorio exam is running, and once the exam ends, the tool immediately stops. The extension is a small program that does not modify your computer; it only modifies the Chrome browser.
+
+Additional info at:  https://proctorio.com/support
+

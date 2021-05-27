@@ -1,0 +1,18 @@
+Midterm 1 information
+Logistics
+
+The first midterm is Wed, Feb 3, at 9:30am. The midterm is 1 hour long but you can submit early if you're done early.
+It's an online quiz on Canvas with Proctorio (see the link "Using Proctorio for exams" for more detail).
+It covers numpy, pandas, matplotlib. There is no question on pure Python concepts, but Python is used for the answers.
+You can look up notes on your computer or any printed / handwritten notes you have next to you.
+You should do your own work, and not consult or communicate with anyone else during the exam.
+
+What's in the exam
+
+The questions are similar to questions in the labs and exercises. You either read code and explain what it does, or write a short code segment to do some work.
+Each exam question will have a textbox for you to type in the answer.
+If you need to make any reasonable assumption in your answer, just note it in the textbox and I will work with your assumption.
+You can assume all import statements are already done, so no need to say "I assume numpy is already imported"
+Here are the sample questionsPreview the document
+Here is the solutionPreview the document   to the sample questions.
+

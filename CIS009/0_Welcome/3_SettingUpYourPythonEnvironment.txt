@@ -1,0 +1,32 @@
+Set up your Python environment
+Download Anaconda
+Anaconda is a software distribution that bundles the Python core with many other commonly used Python packages, some of which we will use in class.
+It is important that everyone in class uses the same Anaconda distribution, with the same versions of Python packages, instead of installing individual Python packages. By using the same Anaconda distribution, we guarantee that our code will behave the same way whether it is run on your computer or my computer (when testing your code).
+
+There are 2 different ways to install Anaconda. Choose the appropriate one, depending on what you currently have on your system.
+
+If you don't have Anaconda yet:
+
+Go to the Anaconda downloads (Links to an external site.) page and click to download the Anaconda distribution for your system (Mac, Linux, or Windows)
+The current version is with Python 3.8
+Click to run the installer.
+For Windows: Click "Next" to get started and answer standard questions. But there are 2 questions that you need to answer as follows:
+- At the Select Installation Type window: choose All Users
+- At the Advanced Installation Option window: choose Add Anaconda to my PATH environment variable
+  And check to register Anaconda as the system Python 3.8
+For Mac: the PATH environment variable should be the default set up so you should be able to use all default answers.
+If for some reason it isn't set up, see video at the end of this document that a former TA, William Chen, made to show you how to add Anaconda to your PATH variable.
+ 
+If you already have Anaconda but don't have the version of Anaconda with Python 3.8 installed:
+
+You can upgrade Anaconda, however, if you're not sure that the PATH environment variable was set up for Anaconda when you last installed it, then it might be better to uninstall Anaconda and re-install it by following the instructions above.
+Here  (Links to an external site.)are more detailed instructions to upgrade Anaconda if you choose to update.
+ 
+
+To test that Anaconda is installed properly so that it works with your Python IDE:
+
+Open a command window or terminal window on your system
+At the prompt, type:  jupyter notebook
+If jupyter notebook shows up as a tab on your browser application, then you're all set
+If there's any error message about not finding jupyter notebook, then Anaconda hasn't been installed correctly. In this case, try uninstall Anaconda and re-install again (and view the video at the end of this page if you're using a Mac).
+

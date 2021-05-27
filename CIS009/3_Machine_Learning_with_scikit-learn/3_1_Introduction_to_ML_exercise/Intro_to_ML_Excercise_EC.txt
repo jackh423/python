@@ -1,0 +1,11 @@
+Intro to ML exercise EC
+Due Feb 8 by 9:30am Points 1 Submitting a text entry box Available until Feb 8 at 9:30am
+This assignment was locked Feb 8 at 9:30am.
+Do the reading and work on the Introduction to Machine Learning exercises.
+In the textbox, copy your answers for the questions in cells 0 and 1b.
+
+You don't have to get the perfectly correct answers, you just need to show that you're heading in the right direction in order to get credit for the answer. But a correct answer would be great (and since you've done the midterm, the answers for 1b should be correct, you're a pro with basic pandas operations now)
+
+1/2pt for each question.
+Since this is extra credit, it's not possible to submit the work late.
+

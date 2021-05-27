@@ -1,0 +1,102 @@
+NLP exercise EC
+Due Mar 3 by 9:30am Points 1 Submitting a text entry box Available until Mar 3 at 9:30am
+This assignment was locked Mar 3 at 9:30am.
+Do the reading and work on the NLP exercise.
+In the textbox, copy your answers for the question 15.
+
+You don't have to get the perfectly correct answers, you just need to show that you're heading in the right direction in order to get credit for the answer. But a correct answer would be great.
+
+Since this is extra credit, it's not possible to submit the work late.
+
+Submission:
+##########
+
+
+Paper View
+import string
+def rem_punc(text):
+    no_punc = "".join([c for c in text if c not in string.punctuation])
+    return no_punc
+
+def rem_num(text):
+    no_punc = "".join([c for c in text if c not in string.digits])
+    return no_punc
+# Removing punctuation    
+
+X_p = X["text"].apply(lambda x: rem_punc(x)).to_frame()
+print(X_p.head())
+print(X_p.shape)
+print()
+print()
+
+# Removing numbers
+
+X_proc = X_p["text"].apply(lambda x: rem_num(x)).to_frame()
+print(X_proc.head())
+print(X_proc.shape)
+print()
+print()
+
+# changing to all lower characters
+
+X_processed = X_proc["text"].apply(lambda x: x.lower()).to_frame()
+print(X_processed.head())
+print(X_processed.shape)
+print()
+print()
+
+# Tokenizing the words
+
+from nltk.tokenize import RegexpTokenizer
+
+tokenizer = RegexpTokenizer('\w+')
+only_words = tokenizer.tokenize(s)
+X_processed = X_processed["text"].apply(nltk.word_tokenize).to_frame()
+print("--------------")
+print(X_processed)
+print(X_processed.shape)
+print("--------------")
+print()
+
+# Removing stop words
+
+from nltk.corpus import stopwords
+stop_words=set(stopwords.words("english"))
+print(stop_words)
+
+def without_stop_words(l1):
+    nostopwords = [word for word in l1 if word not in stop_words]
+    return nostopwords
+
+X_processed = X_processed["text"].apply(lambda x: without_stop_words(x)).to_frame()
+print("####--------------###")
+print(X_processed.head())
+print(X_processed.shape)
+print()
+print()    
+print("####--------------###")
+
+# Stem
+from nltk.stem import PorterStemmer
+
+stemmer = PorterStemmer()
+
+def ret_stemmed(s1):
+    stemmed=[stemmer.stem(w) for w in s1]
+    return stemmed
+
+X_processed = X_processed["text"].apply(lambda x: ret_stemmed(x)).to_frame()
+print("!!!--------------!!!")
+print(X_processed.head())
+print(X_processed.shape)
+print()
+print()    
+print("!!!--------------!!!")
+
+ 
+
+Comments:
+#########
+- See if you can combine the different steps. Some of them are duplicate work
+- The X data should be strings
+

@@ -1,0 +1,22 @@
+Clare Nguyen
+Lab 2 group discussion EC - lab 2 EC 4
+Clare Nguyen
+From W21 CIS D009 01Z Intro To Data Science11 unread reply.11 reply.
+You are part of a discussion group with 4-5 other students. There are 2 parts to the extra credit, A and B.
+
+Click Reply to answer the following 2 questions:
+When analyzing data, it's always good to see whether you have all the data needed to come to a solid and fair conclusion.
+In question 6b where you plot the population of each region, you can see the highest populated to lowest populated regions. But is there a factor that could influence the population count of a region, which is not shown in the plot?
+Label your answer 6b, then explain what the missing factor could be (or state that there is no factor)  and how it affected (or not affected) the population count.
+ 
+Copy your answer to question 8b, which is your conclusion about the relationship between income level and population.
+Label  your answer 8b.
+
+Part 1 is due on the same day and time as lab 2, 1/30 11:59pm, and it's 1pt to answer both questions.
+You will see the answers from other members of your group after you submit your answer.
+    
+After the due date of lab 2, review everyone's answers. Then add a reply to your own posting of part A.
+In your reply, briefly explain whether you've changed your mind about your conclusion or whether you've learned a new interpretation of the data from someone else.
+
+Part 2 is due Mon 2/1, 11:59pm, and is 1pt.  It's not possible to post in the discussion after 11:59pm.
+

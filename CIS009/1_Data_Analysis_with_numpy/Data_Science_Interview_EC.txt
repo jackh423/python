@@ -1,0 +1,247 @@
+
+This is a graded discussion: 2 points possible
+
+due Jan 9
+Data science interview EC
+77 unread replies.2121 replies.
+This extra credit (EC) has a few purposes:
+1. Gives you some views on the data science experience from practicing data scientists
+2. Shows you where the book references for the class are
+3. Gives you practice on using the discussion forum to communicate with the class
+4. An extra credit opportunity, and who doesn't want extra credit?
+5. See the next to last paragraph
+
+For 2 pts EC, read the interviews of the 3 data scientists in the Data Science Handbook, which is at the References link on the class website.
+
+Then click on Reply to post:
+1. One (or more) point about data science that was what you expected. Mention the name of the data scientist(s) who made the point.
+2. One (or more) point about data science that was surprising to you. Mention the name of the data scientist(s) who made the point.
+Your answers can be 1 or 2 sentences each, no need to write an essay. Being a data scientist means you can convey information efficiently (or succinctly).
+
+After you've posted your reply, you can then see other students' postings.
+There is no wrong answer since it is your own experience with the reading, but if everyone participates, we can learn from each other's viewpoints and maybe even get to know each other. And this will be the first step to find a partner for the team project at the end of the quarter.
+
+Since this is extra credit, the discussion forum will close on the due date/time, which means you won't be able to post after the due date/time.
+
+This topic was locked Jan 9 at 11:59pm.
+Search entries or author
+Search entries or author
+ Filter replies by unread      
+Maria Gorbunova
+Maria Gorbunova
+Jan 4, 2021Jan 4 at 8:06pm
+1. The importance of how data scientists use the data should not be underestimated. Michelangelo D'aghostino mentioned how data is used most of the time as a tool to make advertisement more efficient, which is quite a scary image of our future (and present). I was glad to hear that there are plenty of initiatives that insure data can be used to benefit our society.
+
+
+2. One thing that DJ Patil mentioned in his interview surprised me. He said that data science is a team sport where the process of working with data can be so complex that it requires a team effort. I also appreciated how he shared his experience as a newbie where he was actually able to add value because he saw things in ways his mentors and more experienced coworkers had never seen.
+
+Collapse SubdiscussionPaola Vizcarra
+Paola Vizcarra
+Jan 5, 2021Jan 5 at 3:26pm
+Being able to write production-level code makes you more valuable. Clare Corthell states what is obvious but sometimes easily overlooked in the process.
+It’s somehow surprising that even though data is now the world's most valuable resource, Michelangelo D’aghostino reminds us that it’s worth is not based on its quantity. It’s what you do with it and how you apply it to problem solving and all the interesting things you can do with it.
+Yueqi Wang
+Yueqi Wang
+Jan 6, 2021Jan 6 at 11:58am
+1. You don’t have to know everything. Programmers are great at “just-in-time” learning because it’s impossible to know everything, Clare Corthell mentioned this is a great trait. Michelangelo D’Agostino also mentioned a similar point that the most useful skill one learns in grad school is how to teach yourself stuff and how to figure out things that you don’t know. In addition, to be stubborn and beat your head on a problem until you made progress.
+
+ 
+
+2. DJ Patil likes best when people with user experience and data domain knowledge, not just one of them. The reason is that you can be very clear with a UX problem by surfacing data in a very unique way. We could focus on solving problems with sophisticated tech skills but sometimes forget to focus on the needs of the customers. There might be a simplistic design element that fixes the data problem.
+
+Christopher Prendergast
+Christopher Prendergast
+Jan 7, 2021Jan 7 at 12:15pm
+Data Scientist: DJ PATIL - VP of Products at RelateIQ
+
+Expected: Both people and organizations like to hire others like themselves. Your first role places you in a "box". People infer what skills you have from this box.
+
+Unexpected: DJ Patil coined the term “Data Scientist” (with Jeff Hammerbacher).
+
+ 
+
+Data Scientist: CLARE CORTHELL - Data Scientist at Mattermark
+
+Expected: As a self-taught individual she faced skepticism.
+
+Unexpected: To help programmers acquire the skills necessary to be a competent entry-level data scientist, Clare Corthell published a collection of open-source resources on GitHub. Most of the content was reverse engineered from job descriptions that interested her.
+
+ 
+
+Data Scientist: MICHELANGELO D’AGOSTINO - Senior Data Scientist at Civis Analytics
+
+Expected: Michelangelo D’Agostino was unsure if he wanted to go to grad school or get a job after he graduated.
+
+Unexpected: His career has worked out well even though he did not have an overarching plan.
+
+Shweta Khanjan Shroff
+Shweta Khanjan Shroff
+Jan 7, 2021Jan 7 at 12:43pm
+1.MICHELANGELO D’AGOSTINO mentions that the things he did for Physics were essentially the same as  he did for his data science job. The techniques of working with data, understanding statistics and
+being able to visualize something and tell a story about it were all the things that he learned in physics and  carried over into  data science context. This shows that knowledge is one and transfer of learning can happen to you all the time, which seems fairy reasonable.
+
+CLARE CORTHELL talks about taking initiative and acquiring skills that increment your value and how it will be amply rewarded by the job market and how the lack of any stamp of approval, meaning an institutional education through and through, is a false barrier. This rings true to me as we know about the likes of self-taught stalwarts such as Steve Jobs , Bill Gates and many more.
+
+2. DJ PATIL, a De Anza alumnus and the person who co-coined the term data science emphasizes upon the  bonding between the colleagues and how it comes in handy when they are in a do-or-die kind of a situation. Surprisingly, according to him, what sets good places apart is the data scientists going through many iterations of such situations and how this makes them so good at their job!
+
+ 
+
+ 
+
+Edited by Shweta Khanjan Shroff on Jan 7 at 9:54pm
+Vaishnavi Chilkeshwaram
+Vaishnavi Chilkeshwaram
+Jan 7, 2021Jan 7 at 2:45pm
+One point about data science that was what I expected is made by MICHELANGELO D’AGOSTINO. He says that the amount of data you have is not important. It’s what you do with the data you have and how you apply it to problems and what interesting things you’re doing with it. That’s so much more important.
+
+One point about data science that was surprising to me is made by all the data scientists and pre-dominantly by DJ PATIL who says Data Science is a team sport. No data scientist does it all on his/her own, data science is a team effort. Somebody has to bring the data together, somebody has to move it, someone needs to analyze it, someone needs to be there to bounce ideas around.
+
+There is another point made by MICHELANGELO D’AGOSTINO which was also surprising to me. He says that the role of Data Scientist varies from company to company. At each different place, when they’re talking about hiring a data scientist, that can mean something totally different. In some places, they just want someone who can run SQL queries and numbers for every report. In other places, they want people who are actually going to build data infrastructure. In other places, they want some people who are going to build predictive statistical models and design experiments. In some places they want the unicorn that can do all that stuff. So its really important to ask a lot of questions and figure out what a company
+wants when they want a data person.
+
+ 
+
+Tony Ta
+Tony Ta
+Jan 7, 2021Jan 7 at 4:22pm
+1) One point that I expected was when Michelangelo D'Agostino mentioned that it was important to have actual experience dealing with data in order to be a better data scientist. This is similar to whenever you are learning any concept: it's more important to try and apply the concepts than it is to just read about a concept.
+
+2) One point that surprised me from these interviews is when Clare Corthell mentioned that most companies don't hire a person for their potential future value. I had always thought before that it would be more valuable for a company to think long-term in their hiring process in order to limit how often they would have to hire someone. But, in the current economy, most companies care more about what you can bring to the table now, rather than what you can bring in later down the line.
+
+Sharon Yeh
+Sharon Yeh
+Jan 8, 2021Jan 8 at 11:25am
+One point about data science that was what I expected is mentioned by DJ PATIL. He mentioned that data science is a team sport. Everyone in the team does different parts and the cooperation makes data science work.
+Another point is made by  MICHELANGELO D’AGOSTINO. He thinks the most useful skill that learned in grad school is how to self-learning. And to be stubborn, keep thinking, and don't give up until making progress.
+
+ 
+
+What CLARE CORTHELL mentioned surprised me. She mentioned don’t have to know everything to become a data scientist. It is impossible to know everything, "just-in-time" learning is a good trait to solve the problem. 
+
+ 
+
+Raghav Murthy
+Raghav Murthy
+Jan 9, 2021Jan 9 at 9:04am
+1. One thing that I expected was that data science is a 'team sport', as DJ Patil said. He also said that data science is broad enough so that people who may not be the best coders can still take part in with other skills of theirs. 
+
+2. One thing that surprised me was what Michelangelo D'aghostino said about how different companies are looking for different types of data scientists. Some companies want someone who builds data models, while other companies want someone who can run SQL queries.
+
+Le Tang
+Le Tang
+Jan 9, 2021Jan 9 at 11:30am
+1. Data science is everywhere. This is one thing about data science that I expected and also was confirmed by DJ Patil. As they mentioned, when you introduce yourself to other people, the way you describe yourself is changing and evolving every time you talk to someone. You are iterating on how you are presenting yourself and trying to figure out what works. This is data science.
+
+ 
+
+2. The Open-Source Data Science Masters curriculum designed by Clare Corthell surprised and amazed me. You can learn all the knowledge and skills you need to be a competent entry-level data scientist through internet and for almost free. I am interested in checking out some of the contents. 
+
+ 
+
+Srinivas Jakkula
+Srinivas Jakkula
+Jan 9, 2021Jan 9 at 4:53pm
+Kunal Punera mentions that, "Once you have a decent statistical modeling background, the rest of machine learning is just variations of the same thing." I am glad that, I had similar kind of thought.
+
+I did not expected what SEAN GOURLEY said about the open source Intelligence.
+
+"The idea that through open source intelligence, you can beat the entire US military’s data collection about significant events in Iraq"
+
+Another point I did not expect was again from Sean Gourley is, "You see this transition from data being valuable to algorithms being valuable"
+
+Alyssa Ung
+Alyssa Ung
+Jan 9, 2021Jan 9 at 6:16pm
+Something that didn't surprise me was when Clare Corthell mentioned that recruiters would doubt her as she didn't go through the traditional way of education and instead self-studied. 
+
+One point that was surprising is DJ Patil's advice for beginning data scientist to work super hard even if it means getting only four hours of sleep. It's just a little scary to see how much you could potentially be putting into your career as a data scientist
+
+Tuan Nguyen
+Tuan Nguyen
+Jan 9, 2021Jan 9 at 8:31pm
+1) It appears that data science is involved quite a lot with mathematics, especially statistics. Clare Corthell mentions a few Mathematics subjects in her interview, i.e., introductory linear algebra, statistics, databases, graph analysis, data mining...
+
+2) Michelangelo talks about data science tools which one of the is called Hardoop, “If you’re not running a Hadoop
+cluster, you’re not doing anything interesting with your data."  I am not familiar with Hardoop and would want to understand what it is and what role it plays in data science.
+
+Diane Tabilas
+Diane Tabilas
+Jan 9, 2021Jan 9 at 8:46pm
+I am going to be honest when I say that I know little to nothing about data science. It was surprising to me to find out that this is a relatively new field based on DJ Patil's, the guy who thought up the term "data scientist." The only thing I expected about data science is that it is related to math. In Clare Corthell's answer about the Open Source Data Science Masters, resources for online learning relating to data science, she states, "the first version included introductory linear algebra, statistics, databases, algorithms, graph analysis, data mining, natural language processing, and machine learning." Several of these I know for sure are math, and a few of the others I can deduce that it is probably relating to math in one way or another.
+
+Yang Liu
+Yang Liu
+Jan 9, 2021Jan 9 at 9:37pm
+1. One (or more) point about data science that was what you expected.
+
+    From these interviews, I agree that data science could affect the world positively. Data science is a method for people to approach better result through doing modeling, randomized experiments and prediction. By MICHELANGELO D’AGOSTINO, he used DS in election to affect the world positively. By DJ PATIL, he mentioned that DS help people who have potential suicide intention.
+
+2. One (or more) point about data science that was surprising to you.
+
+    The point that Data Science need teamwork, which claimed by DJ PATIL, surprised me when I read it. I didn't realize that before as no real relative working experiences. Therefore, his interview shows a clear frame for me in Data Science workplace. 
+
+Aryan Shelke
+Aryan Shelke
+Jan 9, 2021Jan 9 at 10:36pm
+One thing that I already expected about data science was the math that was necessary, which primarily includes probability and statistics. I am aware that you do not need to know everything there is and instead need to develop the appropriate skills to tackle problems when you come across them. Clare Corthell makes this point that you do not need to know everything and the fact that programmers are good "just in time" learners. Skills such as debugging and being able to recognize new problems as parts of old problems you have come across are essential.
+One thing that was surprising to me was that I did not really consider was that there can be potential concerns when it comes to the work of data scientists. Michelangelo D'Agostino says that some of the applications such as cookie collection and targeted advertising have negative connotations and there may be a backlash against collecting more and more data. This is already quickly becoming a concern raised up by the general public as technology is quickly progressing and privacy issues are being brought up. I realize now that one of the roles of data scientists is to show the world that data science can have strong positive impacts.
+Edited by Aryan Shelke on Jan 9 at 10:45pm
+Kuo Fu
+Kuo Fu
+Jan 9, 2021Jan 9 at 10:59pm
+1. Regardless of the hype of data science, Dr. Michelangelo D'Agostino comments that the trend of data science would still continue because of the demanding needs of analyzing the data from companies and organizations which they would like to be more efficient about how they reach out to people and how they optimize their own operations. And another thing is that data science is an interdisciplinary subject, it is not replaced easily. 
+
+Clare Corthell says most companies don't hire for the potential future value. It is better to participate in relative projects that could demonstrate the ability to solve the problem and design a solution. 
+
+2. DJ Patil's interview gives lots of advice for starting a career. One thing that surprised me is data science is not a solo work. Data scientists have to collaborate with others. So training yourself in team projects in academia and to be ready for the workforce is very important. 
+
+Soji Pakkam Chandran
+Soji Pakkam Chandran
+Jan 9, 2021Jan 9 at 11:32pm
+Each of these interviewees are from different backgrounds and they all share interesting points.
+
+DJ Patil
+
+    Because of the pace at which the world  changes, the only way to prepare yourself is by having that dynamic range.And, work on simple things as simple things get harder.
+
+Clare Corthell
+
+     If you take initiative and acquire skills that increment your value, the market is able and willing to reward you.
+
+Michelangelo D'agostino
+
+    Work on problems outside your academic specialty and that they show, you really have initiative and also can teach yourself new things.
+
+Jerry Kim Do
+Jerry Kim Do
+Jan 9, 2021Jan 9 at 11:38pm
+1. I expect data science problems having problems similar to the ones you've approached before, and transcending similarly to the next problem. Clare clarified this with the quote "And naturally, you improve over time by recognizing new problems as
+chunks of old problems you’ve already seen and solved. "
+
+2. One surprising point that got me off guard is how you can set your own degree program efficiently, learning in things important for the certain job description within 6 months rather than in 3 years trying to know everything. Clare clarified this with the quote "You don’t have to know everything. That’s why I’ve tried to keep the curriculum so
+tightly focused on its goal. Programmers are great at 'just-in-time' learning because it's impossible to know everything. That’s a great trait."
+
+Xuechi Zhao
+Xuechi Zhao
+Jan 9, 2021Jan 9 at 11:58pm
+1. DJ Patil mentioned that it takes time and efforts to become good working in data science. It is crucial to possess the skills to be self-sufficient and constantly learning new things in a fast-paced and quickly-growing field of data science, according to  Michelangelo D'aghostino. Clare Corthell also talked about something similar like programmers should be great at "just-in-time" learning since it is impossible to know everything. 
+
+Also all three data scientists strengthened the importance of not losing passion and curiosity in the work we do.
+
+2. Data science is a team sport, and requires many other transferable skills (to have the dynamic range) to do well in (Patil and D'aghostino). 
+
+Michael Barber
+Michael Barber
+Jan 14, 2021Jan 14 at 10:51pm
+1. none of the three interviewees have a CS degree
+
+I expected data scientists to come from divergent science/technical backgrounds and was not disappointed. My own path has been very nonlinear with respect to CS and I feel like that’s an asset, that being a polymath naturally lends itself to solving problems.
+
+ 
+
+2. data science is a relatively new field
+
+I didn’t realize this until I read that DJ Patil– born in 1974– partially coined the professional title “data scientist”, and this led me to the wiki on data science. In Clare Corthell’s interview, she even debates whether or not "data scientist" will be the job title that sticks.
+
+
+
